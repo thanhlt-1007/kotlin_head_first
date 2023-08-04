@@ -289,3 +289,45 @@ If you want to fully exploit polymorphism, you need to design using abstract cla
 - "Update the Animals project"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 7
+
+Nobody wants to spend their life reinventing the wheel.
+
+Most applications include classes whose main purpose is to store data, so to make your coding life easier, the Kotlin developers came up with the concept of a data class. Here, you'll learn how data classes enable you to write code that's cleaner and more concise than you ever dreamed was possible. You'll explore the data class utility functions, and discover how to destructure a data object into its component parts. Along the way, you';; find out how default parameter values can make your code more flexible, and we'll introduce you to Any, the mother of all superclasses.
+
+- "== calls a function named equals"
+
+- "equals is inherited from a superclass named Any"
+
+- "The common behavior defined by ANy"
+
+- "We might want equals to check whether two objects are quivalent"
+
+- "A data class lets you create data object"
+
+- "Data classes override their inherited behavior"
+
+- "Copy data objects using the copy function"
+
+- "Data classes define component functions..."
+
+- "Create the Recipes project"
+
+- "Puzzle Mixed Messages"
+
+- "Generated functions only use properties defined in the constructor"
+
+- "Initializing many properties can lead to combersome code"
+
+- "How to use a constructor's default values"
+
+- "Functions can use default values too"
+
+- "Overloading a function"
+
+- "Let's update the Recipes project"
+
+- "The code continued..."
+
+- "Your Kotlin Toolbox"
