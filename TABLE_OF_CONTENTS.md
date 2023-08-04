@@ -145,3 +145,45 @@ So far, all the code you've written has been inside your appliaction's main func
 - "Add the printResult function to Game.kt"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 4
+
+It's time we looked beyond Kotlin's basic types.
+
+Sooner or later, you're going to want to use something more than Kotlin's basic types. And that's where classes come in. Classes are templates that allow you to create your own types of objects, and define their properties and functions. Here, you'll learn how to design and define classes, and how to use them to create new types of objects. You'll meet constructor, initializer blocks, getter and setters, and you'll discover how they can be used to protect your properties. Finally, you'll learn how data hiding is built into all Kotlin code, saving you time, effort and a multitude of keystrokes.
+
+- "Object types are defined using classes"
+
+- "How to design your own classes"
+
+- "Let's define a Dog class"
+
+- "How to create a Dog object"
+
+- "How to access properties and functions"
+
+- "Create a Songs application"
+
+- "The miracle of object creation"
+
+- "How objects are created"
+
+- "Behind the scenes: calling the Dog constructor"
+
+- "Going deeper into properties"
+
+- "Flexible property initialization"
+
+- "How to use initialize blocks"
+
+- "You MUST initialize your properties"
+
+- "How do you validate propertu values"
+
+- "How to write a custom getter"
+
+- "How to write a custom setter"
+
+- "The full code for the Dogs project"
+
+- "Your Kotlin Toolbox"
