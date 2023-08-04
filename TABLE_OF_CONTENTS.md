@@ -427,3 +427,53 @@ Kotlin comes with a bunch of useful collections that give you more flexibility a
 - "Puzzle Mixed Messages"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 10
+
+Everybody likes code that's consistent.
+
+And one way of writing consistent code that's less prone to problems is to use generics. In this chapter, we'll look at how Kotlin's collection classes use generics to stop you from putting a Cabbage into a List<Seagull>. You'll discover when and how to write your own generic classes, interfaces and functions, and how to restrict a generic type to a specific supertype. Finally, you'll find out how to use covariance and contravariance, putting YOU in control of your generic types' behavior.
+
+- "Collections use generics"
+
+- "How a MutableList is defined"
+
+- "Using type parameters with MutableList"
+
+- "Things you can do with a generic class or interface"
+
+- "Here's what we're going to do"
+
+- "Create the Pet class hierarchy"
+
+- "Define the Contest class"
+
+- "Add the scores property"
+
+- "Create the getWinners function"
+
+- "Create some Contents objects"
+
+- "Create the Generics project"
+
+- "The Retailer hierarchy"
+
+- "Define the Retailer interface"
+
+- "We can create CatRetailer, DogRetailer and FishRetailer objects..."
+
+- "Use out to make generic type covaraint"
+
+- "Update the Generics project"
+
+- "We need a Vet class"
+
+- "Create Vets objects"
+
+- "Use in to make a generic type contravariant"
+
+- "A generic type can be locally contravariant"
+
+- "Update the Generics project"
+
+- "Your Kotlin Toolbox"
