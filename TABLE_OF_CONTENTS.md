@@ -67,3 +67,43 @@ From its first release, Kotlin has impressed programmers with its friendly synta
 - "Puzzel Mixed Messages"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 2
+
+There's one thing all code depends on - variables.
+
+So in this chapter, we're going to look under the hood, and show you how Kotlin variables really work. You'll discover Kotlin's basic types, such as Ints, Floats and Booleans, and learn how the Kotlin compiler can cleverly infer a variable's type from the value it's given. You'll find out how to use String templates to construct complex Strings with very little code, and you'll learn how to create arrays to hold multiple values. Finally, you'll discover why objects are so important to life in Kotlinville.
+
+- "Your code needs variables"
+
+- "What happens when you declare a variable"
+
+- "The variable holds a reference to the object"
+
+- "Kotlin's basic types"
+
+- "How to explicitly declare a variable's type"
+
+- "Use the right value for the variable's type"
+
+- "Assigning a value to another variable"
+
+- "We need to convert the value"
+
+- "What happens when you convert a value"
+
+- "Watch out for overspill"
+
+- "Store multiple values in an array"
+
+- "Create the PhraseOMatic.kt"
+
+- "The compiler infers the array's type from its values"
+
+- "var means the variable can point to a different array"
+
+- "val means the variable points to the same array forever..."
+
+- "Puzzel Mixed References"
+
+- "Your Kotlin Toolbox"
