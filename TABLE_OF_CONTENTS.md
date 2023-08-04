@@ -331,3 +331,53 @@ Most applications include classes whose main purpose is to store data, so to mak
 - "The code continued..."
 
 - "Your Kotlin Toolbox"
+
+## Chapter 8
+
+Everybody wants to write code that's safe.
+
+And the greate news is that Kotlin was designed with code-safety as its heart. We'll start by showing you how Kotlin's use nullable types means that you'll hardly ever experience a NullPointerException during your entire stay in Kotlinville. You'll discover how to make a safe calls, and how Kotlin's Elvis operator stops you being all shook up. And when we're done with nulls, you'll find out how to throw and catch exceptions like a pro.
+
+- "How do you remove object references from variables"
+
+- "Remove an object reference using null"
+
+- "You can use a nullable type everywhere you can use a non-nullable type"
+
+- "How to create an array of nullable types"
+
+- "How to access a nullable type's functions and properties"
+
+- "Keep things safe with safe calls"
+
+- "You can chain safe calls together"
+
+- "The story continues..."
+
+- "You can use safe calls to assign values..."
+
+- "Use let to run code if values are not null"
+
+- "Using let with array items"
+
+- "Instead of using an if expression..."
+
+- "The !! operator deliberately throws a NullPointerException"
+
+- "Create the Null Values project"
+
+- "The code continued..."
+
+- "An exception is thrown in exceptional circumstances"
+
+- "Catch exceptions using a try/catch"
+
+- "Use finally for the things you want to do no matter what"
+
+- "An exception is an object of type Exception"
+
+- "You can explicitly throw exceptions"
+
+- "try and throw are bpth expressions"
+
+- "Your Kotlin Toolbox"
