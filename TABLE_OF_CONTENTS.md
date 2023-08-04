@@ -237,3 +237,55 @@ Well, that's one of the advantages of inheritance. Here, you'll learn how to cre
 - "The updated Animals code"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 6
+
+A superclass inheritance hierarchy is just the beginning.
+
+If you want to fully exploit polymorphism, you need to design using abstract classes and interfaces. In this chapter, you'll discover how to use abstract classes to control which classes in your hierachy can add can't be instantiated. You'll see how they can force concrete subclasses to provide their implementations. You'll find out how to use interfaces to share behavior between independent classes. And along the way, you'll learn the ins and outs of is, as, and when.
+
+- "The Animal class hierarchy revisited"
+
+- "Some classes shouldn't be instantiated"
+
+- "Abstract or concrete?"
+
+- "An abstract class can have abstract properties and functions"
+
+- "The Animal class has two abstract functions"
+
+- "How to implement an abstract class"
+
+- "You MUST implement all abstract properties and functions"
+
+- "Let's update the Animal project"
+
+- "Independent classes can have common behavior"
+
+- "An interface lets you define common behavior OUTSIDE a super class hierarchy"
+
+- "Let's define the Roamable interface"
+
+- "How to define interface properties"
+
+- "Declare that a class implements an interface..."
+
+- "How to implement multiple interfaces"
+
+- "How do you know whether to make a class, a subclass. an abstract class, or an interface?"
+
+- "Update the Animals project"
+
+- "Interfaces let you use polymorphism"
+
+- "Where to use the is operator"
+
+- "Use when to compare a variable against a bunch of options"
+
+- "The is operator usually performs a smart cast"
+
+- "Use as perform an explicit cast"
+
+- "Update the Animals project"
+
+- "Your Kotlin Toolbox"
