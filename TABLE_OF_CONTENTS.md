@@ -64,7 +64,7 @@ From its first release, Kotlin has impressed programmers with its friendly synta
 
 - "You can add multi-line code snippets to the REPL"
 
-- "Puzzel Mixed Messages"
+- "Puzzle Mixed Messages"
 
 - "Your Kotlin Toolbox"
 
@@ -104,6 +104,44 @@ So in this chapter, we're going to look under the hood, and show you how Kotlin 
 
 - "val means the variable points to the same array forever..."
 
-- "Puzzel Mixed References"
+- "Puzzle Mixed References"
+
+- "Your Kotlin Toolbox"
+
+## Chapter 3
+
+It's time to take it up a notch, and learn about functions.
+
+So far, all the code you've written has been inside your appliaction's main function. But if you want to write code that's better organized and easier to maintain, you need to know how to split your code into separate functions. In thif chapter, you'll learn how to write functions an interact with your application bu building a game. You'll discover how to write compact single expression functions. Along the way you'll find out how to interate through ranges and collections using the powerful for loop.
+
+- "Let's build a game: Rock, Paper, Scissors"
+
+- "A high-level design of the game"
+
+- "Get the game to choosen an option"
+
+- "How your create functions"
+
+- "You can send more than one thing to a function"
+
+- "You can get things back from a function"
+
+- "Functions with single-expression bodies"
+
+- "Add the getGameChoice function to Game.kt"
+
+- "The getUserChoice function"
+
+- "How for loops work"
+
+- "Ask the user for their choice"
+
+- "Puzzle Mixed Messages"
+
+- "We need to validate the user's input"
+
+- "Add the getUserChoice function to Game.kt"
+
+- "Add the printResult function to Game.kt"
 
 - "Your Kotlin Toolbox"
