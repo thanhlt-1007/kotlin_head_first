@@ -519,3 +519,49 @@ If so, then you need lambdas. A lambda - or lambda expression is a block of code
 - "Update the Lambdas project"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 12
+
+Kotlin has an entire host of built-in higher-order functions.
+
+And in this chapter, we'll introduce you to some of the most useful ones. You'll meet the flexible filter family, and dicover how they can help you trim your collection down to size. You'll learn how to transform a collection using map, loop through its items with forEach, and how ti group the items in your collection using groupBy. You'll even use fold to perform complex calculations using just one line of code. By the end of the chapter, you'll be able to write code more powerful than you ever thought possible.
+
+- "Kotlin has a bunch of built-in higher-order functions"
+
+- "The min and max functions work with basic types"
+
+- "A closer look at minBy and maxBy's lambda parameter"
+
+- "Create and Groceries project"
+
+- "Meet the filter function"
+
+- "Use map to apply a transform to your collection"
+
+- "What happens when the codes runs"
+
+- "The story continues..."
+
+- "forEach works like for a loop"
+
+- "forEach has no return value"
+
+- "Update the Broceries project"
+
+- "Use groupBy to split your collection into groups"
+
+- "You can use groupBy in functions call chains"
+
+- "How to use the fold function"
+
+- "Behind the scenes" the fold function"
+
+- "Some more examples of fold"
+
+- "Update the Groceries project"
+
+- "Puzzel Mixed Messages"
+
+- "Your Kotlin Toolbox"
+
+- "Leaving town..."
