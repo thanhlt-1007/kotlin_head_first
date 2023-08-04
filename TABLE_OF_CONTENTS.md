@@ -187,3 +187,53 @@ Sooner or later, you're going to want to use something more than Kotlin's basic 
 - "The full code for the Dogs project"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 5
+
+Ever found yourself thinking that an object's type would be perfect if you could just change a few thing?
+
+Well, that's one of the advantages of inheritance. Here, you'll learn how to create subclasses, and inherit the properties and functions of a superclass. You'll discover hơ to override functions and properties to make your classes behave the way you want, and you'll find out wjen this is (and isn't) appropriate. Finally, you'll see how inheritance helps you avoid duplicated code, and how to improve your flexibility with polymorphism.
+
+- "Inheritance helps you aboild duplicate code"
+
+- "What we're going to do"
+
+- "Design an animal class inheritance structure"
+
+- "Use inheritance to avoid duplcate code in subclasses"
+
+- "What should the subclasses override?"
+
+- "We can group some of the animals"
+
+- "Add Canine and Feline classes"
+
+- "Use IS-A to test your class hierarchy"
+
+- "The IS-A test works anywhere in the inheritance tree"
+
+- "We'll create some Kotlin animals"
+
+- "Declare the superclass and its properties and functions as open"
+
+- "How a subclass ingerits from a superclass"
+
+- "How (and when) to override properties"
+
+- "Overriding properties lets you do more than assign default values"
+
+- "How to override functions"
+
+- "An overriden function or property stays open..."
+
+- "Add the Hippo class to the Animals project"
+
+- "Add the Canine and Wolf classes"
+
+- "Which function us called?"
+
+- "When you call a supertype for a function's parameters and return type"
+
+- "The updated Animals code"
+
+- "Your Kotlin Toolbox"
