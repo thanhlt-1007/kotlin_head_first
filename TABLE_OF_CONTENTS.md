@@ -381,3 +381,49 @@ And the greate news is that Kotlin was designed with code-safety as its heart. W
 - "try and throw are bpth expressions"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 9
+
+Ever wanted something more flexible than an array?
+
+Kotlin comes with a bunch of useful collections that give you more flexibility and greater control over how you store and manage groups of objects. Want to keep a resizeable list that you can keep adding to? Want to sort, shuffle or reverse its contents? Want to find something by name? Or do what something what will automatically weed out duplicates without lifting a finger? If you want any or these things, or more, keep reading. It's all here...
+
+- "Arrays can be useful..."
+
+- "...but there are things an array can't handle"
+
+- "When in doubt, go to the Library"
+
+- "List, Set and Map"
+
+- "Fantastic Lists..."
+
+- "Create a MutableList..."
+
+- "You can remove a value..."
+
+- "You can change the order and make bulk changes..."
+
+- "Create the Collections project"
+
+- "Lists allow duplicate values"
+
+- "How to create a Set"
+
+- "Update the Collections project"
+
+- "Time for a Map"
+
+- "How to use a Map"
+
+- "Create a MutableMap"
+
+- "You can remove entries from a MutableMap"
+
+- "You can copy Maps and MutableMaps"
+
+- "The full code for the Collections project"
+
+- "Puzzle Mixed Messages"
+
+- "Your Kotlin Toolbox"
