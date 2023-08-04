@@ -477,3 +477,45 @@ And one way of writing consistent code that's less prone to problems is to use g
 - "Update the Generics project"
 
 - "Your Kotlin Toolbox"
+
+## Chapter 11
+
+Want to write code that's even more powerful and flexible?
+
+If so, then you need lambdas. A lambda - or lambda expression is a block of code that you can pass around just like an pbject. Here, you'll discover how to define a lambda, assign it to a variable, and then execute its code. You'll learn about function types, and how these can help you write higher-order functions that use lambdas for their parameter or return values. And along the way, you'll find out how a little syntactic sugar can make your coding life sweeter.
+
+- "Introducing lambdas"
+
+- "What lambda code looks like"
+
+- "You can assign a lambda to a variable"
+
+- "Lambda expression have a type"
+
+- "The compiler can infer lambda parameter types"
+
+- "Use the right lambda for the variable's type"
+
+- "Create the Lambdas project"
+
+- "You can pass a lambda to a function"
+
+- "Invoke the lambda in the function body"
+
+- "What happens when you call the function"
+
+- "You can move the lambda OUTSIDE the ()'s..."
+
+- "Update the Lambdas project"
+
+- "A function can return a lambda"
+
+- "Write a function that receives ANH returns lambdas"
+
+- "How to use the combine function"
+
+- "Use typealias to provide a different name for an existing type"
+
+- "Update the Lambdas project"
+
+- "Your Kotlin Toolbox"
