@@ -29,3 +29,7 @@ So Kotlin is a morden, powerful and flexible programming language that offers ma
 ## You can use Kotlin nearly everywhere
 
 Kotlin is so powerful and flexible that you can use it as a general-purpose language in many different contexts. This is because you can choose which platform to compile your Kotlin code against.
+
+### Java Virtual Machines (JVMs)
+
+Kotlin code can be compiled to JVM (Java Virtual Machine) bytecode, so you can use Kotlin practically anywhere that you can use Java. Kotlin is 100% interoperable with Java, so you can use existing Java libraries with it. If you're working on an application that contains a lot of old Java code, you don't have to throw all the old code away; your new Kotlin code will work alongside it. And if you want to use the Kotlin code you've written from inside Java, you can do so with ease.
