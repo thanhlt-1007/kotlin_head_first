@@ -65,3 +65,7 @@ We'll add a new Kotlin file to the project, then write a simple main function th
 ### 3. Update the function to make it do more.
 
 Kotlin includes basic languages structures such as statements, loops and conditional branching. We'll use these to change our function so that it does more.
+
+### 4. Try out code in the Kotlin interactive shell.
+
+Finally, we'll kool at how to try out snippets of code in the Kotlin interactive shell (or REPL).
