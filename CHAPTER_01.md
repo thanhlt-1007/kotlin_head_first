@@ -25,3 +25,7 @@ Can't decide whether to learn object-oriented or functional programming? Well, w
 Nobody likes unsafe, buggy code, and Kotlin's compiler puts a lot of effect into making sure your code is as clean as possible, preventing many of the errors that can occur in other programming languages. Kotlin is statically typed, for example, so you can't perform inappropriate actions on the wrong tyoe of variable and crash your code. And most of the time, you don't even need to explicitlt specify the type yourself as the compiler can infer it for you.
 
 So Kotlin is a morden, powerful and flexible programming language that offers many advantages. But that's not the end of the story.
+
+## You can use Kotlin nearly everywhere
+
+Kotlin is so powerful and flexible that you can use it as a general-purpose language in many different contexts. This is because you can choose which platform to compile your Kotlin code against.
