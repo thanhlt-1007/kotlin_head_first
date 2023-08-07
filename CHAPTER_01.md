@@ -61,3 +61,7 @@ We'll start by installing IntelliJ IDEA (Community Edition), a free IDE that sup
 ### 2. Add a function that displays some text.
 
 We'll add a new Kotlin file to the project, then write a simple main function that will output the text "Pow!"
+
+### 3. Update the function to make it do more.
+
+Kotlin includes basic languages structures such as statements, loops and conditional branching. We'll use these to change our function so that it does more.
