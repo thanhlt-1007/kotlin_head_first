@@ -49,3 +49,7 @@ If you want to write code that will run quickly on less powerful devices, you ca
 In this book, we're going to focus on creating Kotlin applications for JVMs, as this is the most straightforward way of getting to grips with the language. Afterwards, you'll be able to apply the knowledge you've gained to other platforms.
 
 Let's dive in.
+
+## What we'll do in this chapter
+
+In this chapter, we're going to show you how to build a basic Kotlin application. There are a number of step we're going to go through to do this:
