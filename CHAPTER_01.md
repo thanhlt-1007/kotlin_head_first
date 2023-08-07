@@ -69,3 +69,23 @@ Kotlin includes basic languages structures such as statements, loops and conditi
 ### 4. Try out code in the Kotlin interactive shell.
 
 Finally, we'll kool at how to try out snippets of code in the Kotlin interactive shell (or REPL).
+
+## Install IntelliJ IDEA (Community Edition)
+
+The easiest way of writting and running Kotlin code is to use IntelliJ IDEA (Community Edition). This is a free IDE from JetBrains, the people who invented Kotlin, and it comes with everything you need to develop Kotlin applications, including:
+
+- A code editor: The code editor offers code completion to help you write Kotlin code, and formatting and color highlighting to make your code easier to read. It also gives you hints for improving your code.
+
+- Build tools: You can compile and run your code using quickly and easy shortcuts.
+
+- Kotlin REPL: You have easy access to the Kotlin REPL, which lets you try out code snippets outside your main code.
+
+- Version control: IntelliJ IDEA interfaces with major version control systems such as Git, SVN, CVS and more.
+
+To follow along with us in this book, you need to install IntelliJ IDEA (Community Edition). You can download the IDE here
+
+```
+https://www.jetbrains.com/idea/download/index.html
+```
+
+Once you've installed the IDE, open it. You should see the IntelliJ IDEA welcome screen. You're ready to build your first Kotlin application.
