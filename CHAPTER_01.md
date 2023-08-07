@@ -19,3 +19,9 @@ Unlike some languages, Kotlin code is very concise, and you can perform powerful
 ### You can use object-oriented AND functional programming
 
 Can't decide whether to learn object-oriented or functional programming? Well, why not do both? Kotlin lets you create object-oriented code that use classes, inheritance and polymorphism, just as you can in Java. But it also supports functional programming, giving you the best of both worlds.
+
+### The compiler keeps you safe
+
+Nobody likes unsafe, buggy code, and Kotlin's compiler puts a lot of effect into making sure your code is as clean as possible, preventing many of the errors that can occur in other programming languages. Kotlin is statically typed, for example, so you can't perform inappropriate actions on the wrong tyoe of variable and crash your code. And most of the time, you don't even need to explicitlt specify the type yourself as the compiler can infer it for you.
+
+So Kotlin is a morden, powerful and flexible programming language that offers many advantages. But that's not the end of the story.
