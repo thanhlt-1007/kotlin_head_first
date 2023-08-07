@@ -57,3 +57,7 @@ In this chapter, we're going to show you how to build a basic Kotlin application
 ### 1. Create a new Kotlin project.
 
 We'll start by installing IntelliJ IDEA (Community Edition), a free IDE that supports Kotlin application development. We'll then use the IDE to build a new Kotlin project:
+
+### 2. Add a function that displays some text.
+
+We'll add a new Kotlin file to the project, then write a simple main function that will output the text "Pow!"
