@@ -41,3 +41,11 @@ Alongside other languages such as Java, Kotlin has first-class support for Andro
 ### Client-side and server-side JavaScript
 
 You can also transpile or translate and compile Kotlin code into JavaScript, so that you can run it in a browser. You can use it to work with both client-side and server-side technology, such as WebGL or Node.js
+
+### Native apps
+
+If you want to write code that will run quickly on less powerful devices, you can compile your Kotlin code directly to native machine code. Thif allows you to write code that will run, for example, on iOS or Linux.
+
+In this book, we're going to focus on creating Kotlin applications for JVMs, as this is the most straightforward way of getting to grips with the language. Afterwards, you'll be able to apply the knowledge you've gained to other platforms.
+
+Let's dive in.
