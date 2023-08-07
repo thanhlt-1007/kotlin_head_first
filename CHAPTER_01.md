@@ -37,3 +37,7 @@ Kotlin code can be compiled to JVM (Java Virtual Machine) bytecode, so you can u
 ### Android
 
 Alongside other languages such as Java, Kotlin has first-class support for Android, Kotlin is fully supported in Android Studio, and you can make the most of Kotlin's many advantages when you develop Android apps.
+
+### Client-side and server-side JavaScript
+
+You can also transpile or translate and compile Kotlin code into JavaScript, so that you can run it in a browser. You can use it to work with both client-side and server-side technology, such as WebGL or Node.js
