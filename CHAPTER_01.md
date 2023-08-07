@@ -15,3 +15,7 @@ Kotlin has many morden language features that mekt it attractive to developers. 
 ### It's crisp, concise and readable
 
 Unlike some languages, Kotlin code is very concise, and you can perform powerful tasks in just one line. It provides shortcuts for common actions so that you don't have to write lots of repetitive boilerplate code, and it has a rich library of functions that you can use. And as there's less code to wade through, it's quicker to read, write and understand, leaving you more time to do other things.
+
+### You can use object-oriented AND functional programming
+
+Can't decide whether to learn object-oriented or functional programming? Well, why not do both? Kotlin lets you create object-oriented code that use classes, inheritance and polymorphism, just as you can in Java. But it also supports functional programming, giving you the best of both worlds.
