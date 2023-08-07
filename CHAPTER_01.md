@@ -33,3 +33,7 @@ Kotlin is so powerful and flexible that you can use it as a general-purpose lang
 ### Java Virtual Machines (JVMs)
 
 Kotlin code can be compiled to JVM (Java Virtual Machine) bytecode, so you can use Kotlin practically anywhere that you can use Java. Kotlin is 100% interoperable with Java, so you can use existing Java libraries with it. If you're working on an application that contains a lot of old Java code, you don't have to throw all the old code away; your new Kotlin code will work alongside it. And if you want to use the Kotlin code you've written from inside Java, you can do so with ease.
+
+### Android
+
+Alongside other languages such as Java, Kotlin has first-class support for Android, Kotlin is fully supported in Android Studio, and you can make the most of Kotlin's many advantages when you develop Android apps.
