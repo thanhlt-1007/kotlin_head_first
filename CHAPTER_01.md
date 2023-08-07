@@ -89,3 +89,9 @@ https://www.jetbrains.com/idea/download/index.html
 ```
 
 Once you've installed the IDE, open it. You should see the IntelliJ IDEA welcome screen. You're ready to build your first Kotlin application.
+
+## Let's build a basic application
+
+Now you've set up your development environment, you're ready to create your first Kotlin application. We're going to create a very simple application that will display the text "Pow!" in the IDE.
+
+Whenever you create a new application in IntelliJ IDEA, you need to create a new project for it. Make sure you have the IDE open, and follow along with us.
