@@ -352,3 +352,22 @@ while (z == 10) {
   z = z + 6
 }
 ```
+
+## A loopy example
+
+Let's update the code in App.kt with a new version of the main function. We'll update the main function so that it display a message before the loop starts, each time it loops, and when the loop has ended.
+
+Update your version of App.kt so that is matches ours below (our change are in bold)
+
+```KOTLIN
+fun main(args: Array<String>) {
+  var x = 1
+  println("Before the loop. x = $x.")
+  while (x < 4) {
+    println("In the loop. x = $x.")
+  }
+  println("After the loop. x = $x.")
+}
+```
+
+Let's try running the code.
