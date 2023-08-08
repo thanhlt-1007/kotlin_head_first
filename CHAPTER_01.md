@@ -431,3 +431,42 @@ fun main(args: Array<String>) {
 ```
 
 In most languages, that's pretty much the end of the story as far as using if is concerned; you use it to execute code if conditions have been met. Kotlin, however, takes things a step futher.
+
+## Using if to return a value
+
+In Kotlin, you can use if as an expression, so that it returns a value. It's like saying "if there's ice cream in the tub, return one value, else return a different value". You can use this form to write code that's more concise.
+
+Let's see how this works by reworking the code you saw on the previous page. Previously, we used the following code to print a String:
+
+When you use if as an expression, you MUST include an else clause.
+
+```KOTLIN
+if (x > y) {
+  println("x is greater than y")
+} else {
+  println("x is not greater than y")
+}
+```
+
+We can rewrite this using an if expression lile so:
+
+```KOTLIN
+println(if (x > y) "x is greater than y" else "x is not greater than y")
+```
+
+The code
+```KOTLIN
+if (x > y) "x is greater than y" else "x is not greater than y"
+```
+
+is the if expression. In first checks the if's condition: x > y. If this condition is true, the expression returns the String "x is greater than y". Otherwise (else) the condition is false, and the expression returns the String "x í not greater than y" instead.
+
+The code then prints the value of the if expression using println:
+
+```KOTLIN
+println(if (x > y) "x is grater than y" else "x is not greater than y")
+```
+
+So if x is greater than y, "x is grater than y" get printed. If it's not, "x is not grater than y" gets printed instead.
+
+As you can see, using an if expression in this way has the same effect as the code you saw on the previous page, but it's more concise.
