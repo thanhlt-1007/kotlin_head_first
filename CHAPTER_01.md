@@ -223,3 +223,7 @@ A: No. A Kotlin application might use dozens (or even hundreds) of files, but yo
 You run code in IntelliJ IDEA by going to the Run menu, and selecting the Run command. When prompted, choose the Appkt option. This builds the projects, and runs the code.
 
 After a sort wait, you should see "Pow!" displayed in an output window at the bottom of the IDE like this:
+
+### What the Run command does
+
+When you use the Run command, IntelliJ IDEA goes through a couple of steps before it shows you the output of your code:
