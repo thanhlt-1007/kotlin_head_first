@@ -135,3 +135,67 @@ To add a new Kotlin file to your project, highlight the src folder in IntelliL I
 When you click on the OK button, IntelliJ IDEA creates a new Kotlin file named App.kt, and adds it to the src folder in your project:
 
 Next, let's look at the code need to add to App.kt to get it do something.
+
+## Anatomy of the main function
+
+We're going to get our Kotlin cpde to display "Pow!" in the IDE's output window. We'll do this be adding a function to App.kt
+
+Whenever you write a Kotlin application, you must add a function to it called main, which start your application. When you run your code, the JVM looks for this function, and executes it.
+
+The main fuction looks like this
+
+```JAVA
+fun main(args: Array<String>) {
+  // Your code goes here
+}
+```
+
+- "fun" means it's a function
+
+- The name of this function
+
+- The function's parameters, enclosed in parenthese. The function is given an array of Strings, and the array is named "args"
+
+- Opening brace of the function
+
+- The "//" denotes a comment Replace the comment with any code you want the function to execute
+
+- Closing brace of the function
+
+The function begins with the work fun, which is used to tell the Kotlin compiler that it's a function. You use the fun keyword for each new Kotlin function you create.
+
+The fun keyword is followed by the name of the function, in this case main. Naming the function main means that it will be automatically executed when you run the application.
+
+The code in the braces () after the function name tells the compiler that arguments (if any) the function takes. Here, the code args: Array<String> specifies that the function accepts and array of Strings, and this array is named args.
+
+You put any code you want to run between the curly braces {} of the main function. We want our code to print "Pow!" in the IDE, and we can do that using code like this:
+
+```JAVA
+fun main(args: Array<String>) {
+  println("Pow!")
+}
+```
+
+println("Pow!") prints a string of characters, or String, to the standard output. As we're running our code in an IDE, it will print "Pow!" in the IDE's output pane.
+
+Now that you've seen what the function looks like, let's add it to our project.
+
+PARAMETERLESS MAIN FUNCTION
+
+If you're using Kotlin 1.2 or an earlier version, your main function must take the following form in order for it so start your application:
+
+```JAVA
+fun main(args: Array<String>) {
+  // your code goes here
+}
+```
+
+From Kotlin 1.3, however, you can omit main's parameters so that the function looks like this:
+
+```JAVA
+fun main() {
+  // your code goes here
+}
+```
+
+Through most of this book, we're going to use the longer form of the main function because this works for all versions of Kotlin.
