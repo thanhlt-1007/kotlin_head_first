@@ -107,3 +107,11 @@ Next, you need to tell IntelliJ IDEA what sort of project you want to create.
 IntelliJ IDEA allows you to create projects for various languages and platformsm such as Java and Android. We're going to create a Kotlin project, so choose the option for "Kotlin".
 
 You also need to specify which platform you want your Kotlin project to target. We're going to create a Kotlin application with a JVM target, so select the Kotlin / JVM option. Then click on the Next button.
+
+### 3. Configure the project
+
+You now need to configure the project by saying what you want to call it, where you want to store the files, and what files should be used by the project. This includes which version of Java should be used by the JVM, and the library for the Kotlin runtime.
+
+Name the project "MyFirstApp", and accept the rest of the defaults.
+
+When you click on the Finish button, IntelliJ IDEA will create your project.
