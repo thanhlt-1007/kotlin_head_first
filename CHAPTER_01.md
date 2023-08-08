@@ -95,3 +95,7 @@ Once you've installed the IDE, open it. You should see the IntelliJ IDEA welcome
 Now you've set up your development environment, you're ready to create your first Kotlin application. We're going to create a very simple application that will display the text "Pow!" in the IDE.
 
 Whenever you create a new application in IntelliJ IDEA, you need to create a new project for it. Make sure you have the IDE open, and follow along with us.
+
+### 1. Create a new project
+
+The IntelliJ IDEA welcome screen gives you to a number of options for what you want to do. We want to create a new project, so click on the option for "Create New Project".
