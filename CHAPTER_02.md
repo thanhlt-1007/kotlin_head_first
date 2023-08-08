@@ -8,6 +8,17 @@ So in this chapter, we're going to look under the hood, and show you how Kotlin 
 
 ## 1. Your code needs variables
 
+So far, you;ve learned how to write basic statements, expressions, while loops and if tests. But there's one key thing we need to look at in order to write a great code: variables.
+
+You've already seen how to declare variables using code like:
+
+```KOTLIN
+var x = 5
+```
+
+The code looks simple, but what's going on behind the scenes?
+
+
 ## 2. What happens when you declare a variable
 
 ## 3. The variable holds a reference to the object
