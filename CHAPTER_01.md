@@ -496,3 +496,21 @@ This line runs no matter what
 ```
 
 Now that you've learned how to use if for conditional branching and expressions, have a go at the following exercise.
+
+## Using the Kotlin interactive shell
+
+We're nearly at the end of the chapter, but before we go, there's one more thing we want to introduce you to: the Kotlin interactive shell, or REPL. The REPL. The REPL allows you to quickly try out snippets of code outside your main code.
+
+NOTE
+
+REPL stands for Read-Eval-Print Loop, but nobody ever calls it that.
+
+You open the REPL by going to the Tools menu in the IntelliJ IDEA and choosing Kotlin -> Kotlin REPL. This open a new pane at the bottom of the screen like this:
+
+To use the REOPL, simply type the code you want to try out into the REPL window. As an example, try adding the following:
+
+```KOTLIN
+println("I like turtles!")
+```
+
+Once you've added the code, execute it by clicking on the large green Run button on the left side of the REPL window After a pause, you should see the output "I like turtles!" in the REPL window:
