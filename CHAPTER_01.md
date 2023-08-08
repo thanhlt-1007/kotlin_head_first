@@ -241,3 +241,67 @@ It specifically compiles our source code into JVM bytecode because when we creat
 The JVM translates the AppKt.class bytecode into something the underlying platform understands, then runs it. This displays the String "Pow!" in the IDE's output window.
 
 Now that we know our function works, let's look at how we can update it to make it do more.
+
+## What can you say in the main function?
+
+Once you're inside the main function (or any other function, for that matter), the fun begins. You can say all the normal things that you say in most programming languages to make your application do something.
+
+You can get your code to:
+
+Do something (statements)
+
+```Kotlin
+var x = 3
+x *= 10
+
+val name = "Cormorant"
+
+println("x is $x.")
+```
+
+Do something again and again (loops)
+
+```Kotlin
+while (x > 20) {
+    x -= 1
+    println("x is now $x.")
+}
+
+for (i in 1..10) {
+    x += 1
+    println("x is now $x.")
+}
+```
+
+Do something under a condition (branching)
+
+```Kotlin
+if (x == 20) {
+    println("x must be 20.")
+} else {
+    println("x isn't 20.")
+}
+
+if (name.equals("Cormorant")) {
+    println("$name Strike.")
+}
+```
+
+SYNTAX UP CLOSE
+
+here are some general syntax hints and tips for while you're finding your foor in Kotlinville:
+
+* A single-lined comment begins with two forward slashes:
+
+// This is a comment
+
+* Most white space doesn't matter:
+
+x  =  3
+
+* Define a variable using var or valm followed by the variable's name. Use var for variables whose value you want to change, and val for ones whose value will stay the same. You'll learn more about variables in Chapter 2"
+
+var x = 100
+val serialNo = "AS498HG"
+
+We'll look at these in more detail pver the next few pages.
