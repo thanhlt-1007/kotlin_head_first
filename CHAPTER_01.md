@@ -199,3 +199,27 @@ fun main() {
 ```
 
 Through most of this book, we're going to use the longer form of the main function because this works for all versions of Kotlin.
+
+## Add the main function to App.kt
+
+To add the main function to your project, open the fike App.kt by double-clicking on it in IntelliJ IDEA's explorer. This open the code editor, which you use to view and edit files.
+
+Then, update your version of App.kt so that it matches ours below:
+
+```
+fun main(args: Array<String>) {
+  println("Pow!")
+}
+```
+
+Let's try running our code to see what happens
+
+THERE ARE NO DUMP QUESTIONS
+
+Q: Do I have to add a main function to every Kotlin file I created?
+
+A: No. A Kotlin application might use dozens (or even hundreds) of files, but you may only have one with a main function - the one that starts the application running.
+
+You run code in IntelliJ IDEA by going to the Run menu, and selecting the Run command. When prompted, choose the Appkt option. This builds the projects, and runs the code.
+
+After a sort wait, you should see "Pow!" displayed in an output window at the bottom of the IDE like this:
