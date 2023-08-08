@@ -2,6 +2,10 @@
 
 ## Basic types and variables: Being a Variable
 
+There's one thing all code depends on - variables.
+
+So in this chapter, we're going to look under the hood, and show you how Kotlin variables really work. You'll discover Kotlin's basic types. such as Ints, Floats and Booleans, and learn how the Kotlin compiler can cleverly infer a variable's typr from teh it's given. You'll find out how to use String templates to construct complex Strings with very little code, and you'll learn how to create arrays to hold multiple values. Finally, you;ll discover why objects are so important to life in Kotlinville.
+
 ## 1. Your code needs variables
 
 ## 2. What happens when you declare a variable
