@@ -115,3 +115,13 @@ You now need to configure the project by saying what you want to call it, where 
 Name the project "MyFirstApp", and accept the rest of the defaults.
 
 When you click on the Finish button, IntelliJ IDEA will create your project.
+
+## You've just created your first Kotlin project
+
+After you've finished going through the steps to create a new project, IntelliJ IDEA sets up the project for you, then display it. Here's the project that the IDE created for us:
+
+As you can see, the project features an explorer which you can use to navigate the files and folders that make up your project. InteliJ IDEA creates this folder structure for you when you create the project.
+
+The folder structure is comprised of configuration files that are used by the IDE, and some external libraries that your application will use. It also includes a src folder, which is used to hold your source code. You'll spend most of your time in Kotlinville working with the src folder.
+
+The src folder is currently empty as we haven't added any Kotlin files yet. We'll do this next.
