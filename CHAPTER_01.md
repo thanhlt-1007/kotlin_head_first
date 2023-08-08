@@ -99,3 +99,11 @@ Whenever you create a new application in IntelliJ IDEA, you need to create a new
 ### 1. Create a new project
 
 The IntelliJ IDEA welcome screen gives you to a number of options for what you want to do. We want to create a new project, so click on the option for "Create New Project".
+
+### 2. Specify the type of project
+
+Next, you need to tell IntelliJ IDEA what sort of project you want to create.
+
+IntelliJ IDEA allows you to create projects for various languages and platformsm such as Java and Android. We're going to create a Kotlin project, so choose the option for "Kotlin".
+
+You also need to specify which platform you want your Kotlin project to target. We're going to create a Kotlin application with a JVM target, so select the Kotlin / JVM option. Then click on the Next button.
