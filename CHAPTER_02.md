@@ -18,6 +18,27 @@ var x = 5
 
 The code looks simple, but what's going on behind the scenes?
 
+### a. A variable is like a cup
+
+When you think of a variable in Kotlin, think a cup. Cups come in many different shapes and sizes - big cups, small cups, the giant disposable cups that popcorn comes in at the movies - but they all have one thing in common: a cup holds something.
+
+Declaring a variable is like ordering a drink from Starbucks. When you place your order, you tell the barista what type of drinking you want, what name to shout out when it's ready, and whether to use a fancy reusable cup instead of one that just gets thrown away. When you declare a variable using code like:
+
+```KOTLIN
+var x = 5
+```
+
+You're telling the Kotlin compiler what value the variable should have, what name to give it and whether the variable can be reused for other values
+
+In order to create a variable, the compiler needs to know three things:
+
+- What the variable's name is: This is so we can use that name in our code.
+
+- Whether or not the variable can be reused: If we initially set your variable to 2, for example, can we later set it to 3? Or should it remain 2 forever?
+
+- What type of variable it is: Is it an integer? A String? Or something complex?
+
+You've already seen how to name a variable, and how to use the val and var keywords to specify whether it can be reused for other values. But what about a variable's type?
 
 ## 2. What happens when you declare a variable
 
