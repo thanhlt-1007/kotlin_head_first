@@ -125,3 +125,13 @@ As you can see, the project features an explorer which you can use to navigate t
 The folder structure is comprised of configuration files that are used by the IDE, and some external libraries that your application will use. It also includes a src folder, which is used to hold your source code. You'll spend most of your time in Kotlinville working with the src folder.
 
 The src folder is currently empty as we haven't added any Kotlin files yet. We'll do this next.
+
+## Add a new Kotlin file to the project
+
+before you can write any Kotlin code, you first need to create a Kotlin file to put it in.
+
+To add a new Kotlin file to your project, highlight the src folder in IntelliL IDEA's explorer, then click on the FIle menu and choose New -> Kotlin File/Class. You will prompted for the name and type of Kotlin file you want to create. Name the file "App", and choose File from the Kind option, like this:
+
+When you click on the OK button, IntelliJ IDEA creates a new Kotlin file named App.kt, and adds it to the src folder in your project:
+
+Next, let's look at the code need to add to App.kt to get it do something.
