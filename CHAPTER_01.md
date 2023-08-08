@@ -384,3 +384,11 @@ In the loop. x = 2
 In the loop. x = 3
 After the loop. x = 4
 ```
+
+PRINT VS PRINTLN
+
+You've probably noticed us switching between print and println. What's the difference?
+
+println inserts a new line (think of println as print new line) while print keep printing to the same line. If you want each thing to print out on its own line, use println. If you want everything to stick together on the same line, use print.
+
+Now that you've learned how while loops and boolean test work, let's look at if statements.
