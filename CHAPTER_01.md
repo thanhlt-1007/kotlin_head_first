@@ -470,3 +470,18 @@ println(if (x > y) "x is grater than y" else "x is not greater than y")
 So if x is greater than y, "x is grater than y" get printed. If it's not, "x is not grater than y" gets printed instead.
 
 As you can see, using an if expression in this way has the same effect as the code you saw on the previous page, but it's more concise.
+
+## Update the main function
+
+Let's update the code in App.kt with a new version of the main function that uses an if expression. Replace the code in your version of App.kt so that is matches ours below:
+
+```KOTLIN
+fun main(args: Array<String>) {
+  val x = 3
+  val y = 1
+  println(if (x > y) "x is greater than y" else "x is not greater than y")
+  println("This line runs no matter what")
+}
+```
+
+Let's take the code for a test drive.
