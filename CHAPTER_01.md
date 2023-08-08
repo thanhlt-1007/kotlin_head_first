@@ -392,3 +392,42 @@ You've probably noticed us switching between print and println. What's the diffe
 println inserts a new line (think of println as print new line) while print keep printing to the same line. If you want each thing to print out on its own line, use println. If you want everything to stick together on the same line, use print.
 
 Now that you've learned how while loops and boolean test work, let's look at if statements.
+
+## Conditional branching
+
+An if test is similar to the boolean test in a while loop except instead of saying "while there's still ice cream ..." you say "if there's still ice cream ..."
+
+So that you can see how this works, here's some code that prints a String if one number is greater than another:
+
+```KOTLIN
+fun main(args: Array<String>) {
+  val x = 3
+  val y = 4
+  if (x > y) {
+    println("x is greater than y")
+  }
+
+  println("This line runs no matter what")
+}
+```
+
+The above code executes the line that prints "x is greater than y" only if the condition (x is greater than y) is true. Regardless of whether it's true, though, the line that prints "This line runs no matter what" will run. So depending on the values of x and y, either one statement or two will print out.
+
+We can also add an else to the condition, so that we can say something like "if there's still ice cream, keep scooping, else (otherwise) eat the ice cream the buy some more".
+
+Here's an updated version of the above code that includes an else:
+
+```KOTLIN
+fun main(args: Array<String>) {
+  val x = 3
+  val y = 1
+  if (x > y) {
+    println("x is greater than y")
+  } else {
+    println("x is not greater than y")
+  }
+  println("This line runs no matter what")
+}
+```
+
+In most languages, that's pretty much the end of the story as far as using if is concerned; you use it to execute code if conditions have been met. Kotlin, however, takes things a step futher.
