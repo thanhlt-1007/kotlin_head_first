@@ -305,3 +305,15 @@ var x = 100
 val serialNo = "AS498HG"
 
 We'll look at these in more detail pver the next few pages.
+
+## Loop and loop and loop ...
+
+Kotlin has three standard looping constructs: while, do-while and for. For now we'll just focus on while.
+
+The syntax for while loops is relatively simple. So long as some condition is true, you do everything inside the loop block. The loop block is bounded by a pair of curly braces, and whatever you need to repeat needs to be inside that block
+
+NOTE
+
+If you just have one line of code in the loop block, you can omit the curly braces.
+
+The key to a well-behaved while loop is its conditional test. A conditional test is an expression that results in a boolean value - something that is either true or false. As an example, if you say something like "While isIceCreamInTub is true, keep scooping" you have a clear boolean test. There is either ice cream in the tub, or there isn't. But if you say "While Fred, keep scooping", you don't have a real test. You need to change it to something like "While Fred is hungry, keep scooping" in order for it to make sence.
