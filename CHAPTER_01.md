@@ -317,3 +317,38 @@ NOTE
 If you just have one line of code in the loop block, you can omit the curly braces.
 
 The key to a well-behaved while loop is its conditional test. A conditional test is an expression that results in a boolean value - something that is either true or false. As an example, if you say something like "While isIceCreamInTub is true, keep scooping" you have a clear boolean test. There is either ice cream in the tub, or there isn't. But if you say "While Fred, keep scooping", you don't have a real test. You need to change it to something like "While Fred is hungry, keep scooping" in order for it to make sence.
+
+### Simple boolean tests
+
+You can do a simple boolean test by checking the value of a variable using a comparision operator. These include:
+
+- < (less than)
+
+- > (greater than)
+
+- == (equality)
+
+- <= (less than or equal to)
+
+- >= (greater than or equal to)
+
+Notice the difference between the assignment operator (a single equaks sign) and the equals operator (two equals signs).
+
+Here's some example code that uses boolean tests:
+
+```KOTLIN
+var x = 4 // Assign 4 to x
+
+while (x > 3) {
+  // The loop code will run as x is greater than 4
+  println(x)
+  x = x - 1
+}
+
+var z = 27
+while (z == 10) {
+  // The loop code will not run as z is 27
+  println(z)
+  z = z + 6
+}
+```
