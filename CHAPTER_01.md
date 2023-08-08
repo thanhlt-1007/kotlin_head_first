@@ -485,3 +485,14 @@ fun main(args: Array<String>) {
 ```
 
 Let's take the code for a test drive.
+
+### Test drive
+
+Run the code by going to the Run menu, and selecting the Run "AppKt" command. The following text should appear in the output window at the bottom of the IDE:
+
+```KOTLIN
+x is greater than y
+This line runs no matter what
+```
+
+Now that you've learned how to use if for conditional branching and expressions, have a go at the following exercise.
