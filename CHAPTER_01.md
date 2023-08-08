@@ -236,3 +236,8 @@ NOTE
 
 It specifically compiles our source code into JVM bytecode because when we create the project, we select JVM option. Had we chosen to run it in another environment, the compiler sould have compiled it into code that environment instead.
 
+#### 2. The IDE starts the JV< and runs AppKt.class
+
+The JVM translates the AppKt.class bytecode into something the underlying platform understands, then runs it. This displays the String "Pow!" in the IDE's output window.
+
+Now that we know our function works, let's look at how we can update it to make it do more.
