@@ -227,3 +227,12 @@ After a sort wait, you should see "Pow!" displayed in an output window at the bo
 ### What the Run command does
 
 When you use the Run command, IntelliJ IDEA goes through a couple of steps before it shows you the output of your code:
+
+#### 1. The IDE compiles your Kotlin source code into JVM bytecode.
+
+Assuming your code has no errors, compiling the code creates one or more class files that can run in a JVM. In our case, compileing App.kt creates a class file AppKt.class
+
+NOTE
+
+It specifically compiles our source code into JVM bytecode because when we create the project, we select JVM option. Had we chosen to run it in another environment, the compiler sould have compiled it into code that environment instead.
+
