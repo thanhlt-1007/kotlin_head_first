@@ -379,6 +379,102 @@ We're going to create a new application that generates useful makerting slogans.
 
 ## 13. Add the code to PhraseOMatic.kt
 
+The PhraseOMatic code consist of a main function that creates three arrays of words, randomly picks one word from each and then joins them together. Add the code below to PhraseOMatic.kt
+
+```KOTLIN
+fun main(args: Array<String>) {
+  val wordArray1 = arrayOf("24/7", "multi-tier", "B-to-B", "dynamic", "pervasive")
+  val wordArray2 = arrayOf("empowered", "leveraged", "aligned", "targeted")
+  val wordArray3 = arrayOf("process", "paradigm", "solution", "portal", "vision")
+
+  val arraySize1 = wordArray1.size
+  val arraySize2 = wordArray2.size
+  val arraySize3 = wordArray3.size
+
+  val rand1 = (Math.random() * arraySize1).toInt()
+  val rand2 = (Math.random() * arraySize2).toInt()
+  val rand3 = (Math.random() * arraySize3).toInt()
+
+  val phrase = "${wordArray1[rand1]} ${wordArray2[rand2]} ${wordArray3[rand3]}"
+  println(phrase)
+}
+```
+
+You've already seen what most of the code does, bit there are a couple of lines we want to draw your attention to.
+
+First, the line
+
+```KOTLIN
+val rand1 = (Math.random() * srraySize1).toInt()
+```
+
+We need a
+
+- multi-tier leveraged solution
+
+- dynamic targeted vision
+
+- 24/7 aligned paradigm
+
+- B-to-B empowered portal
+
+generates a random number Math.random() returns a random number between 0 and almost 1, so we have to multiply it by the number of items in the array. We then use toInt() to force the result to be an integer.
+
+Finally, the line
+
+```KOTLIN
+val phrase = "${wordArray1[rand1]} ${wordArray2[rand2]} ${wordArray3[rand3]}"
+```
+
+uses a String template to pick three words and put them together. We'll look at String template on the next page, and then we'll show you more stuff you can do with arrays.
+
+STRING TEMPLATES UP CLOSE
+
+String templates provide a quick and easy way of referring to a variable from inside a String.
+
+To include the value of a variable inside a String, you prefix the variable name with a $. To include the value of an Int variable named x inside a String, for example, you would use:
+
+```KOTLIN
+var x = 42
+var value = "Value of x is $x."
+```
+
+You can also use String templates to refer to an object's properties, or call its function. In this case, you enclose the expression in curly braces. As an example, here's how you include an array's size in a String, and the value of its first item:
+
+```KOTLIN
+var myArray = arrayOf(1, 2, 3)
+var arraySize = "myArray has ${myArray.size} items"
+var firstItem = "The first item is ${myArray[0]}"
+```
+
+You can even use String templates to evaluate more complex expressions from inside a String. Here's how, for example, you would use an if expression to include different text depending on the size of the array myArray
+
+```KOTLIN
+var result = "myArray is ${if (myArray.size > 10) "large" else "small"}"
+```
+
+NOTE
+
+Notice how {}'s enclose the expression we want to evaluate inside the String.
+
+So String templates allow you to construct complex Strings with very little code.
+
+THERE ARE NO DUMB QUESTIONS
+
+Q: Is Math.random() the standard way of getting a random number in Kotlin?
+
+A: It depends which version of Kotlin you're using.
+
+Before version 1.3, Kotlin didn't have a built-in way of gejerating its own random numbers. For applications running on a JVM, however, you could use the random() method from the Java Math library, as we have.
+
+If you're using version 1.3 or above, you can use Kotlin's built-in Random functions instead. The following code, for example, uses Random's nextInt() function to generate a random Int:
+
+```KOTLIN
+kotlin.random.Random.nextInt()
+```
+
+In this book, we've decided to continue using Math.random() to generate random numbers, as this approach works with all versions of Kotlin running on the JVM.
+
 ## 14. The compiler infers the array's type from its values
 
 ## 15. var means the variable can point to a different
