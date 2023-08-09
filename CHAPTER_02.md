@@ -170,6 +170,22 @@ In these situations, you need to explicitly declare the variable's type. We'll l
 
 ## 5. How to explicitly declare a variable's type
 
+So far, you've seen how to creae a variable by assigning a value to it, and letting the compiler infer the type from the value. But there are times when you need to explicitly tell the compiler what type of variable you want to create. You may want to use Bytes or Shorts instead Ints, for example, because they are more efficient. Or you may want to declare a variable at the start of your code, and assign a value to it later on.
+
+You explicitly declare a variable's type using code like this:
+
+```KOTLIN
+var smallNum: Short
+```
+
+Instead of letting the compiler infer the variable's type from its value, you put a colon (:) fter the variable's name, followed by the type you want it to be. So the above code is like saying "create a reusable named smallNum, and make sure it's Short".
+
+Similarly, if you want to declare a Byte variable, you use code like this:
+
+```KOTLIN
+var tinyNum: Byte
+```
+
 ## 6. Use the right value for the variable's type
 
 ## 7. Assigning a value to another variable
