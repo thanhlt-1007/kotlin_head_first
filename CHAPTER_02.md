@@ -58,6 +58,10 @@ We're going to look at some different types in more detail a couple of pages ahe
 
 ### b. .. and the compiler infers the variable's type from that of the object
 
+The compiler then uses the type of the object for the type of the variable. In the above example, the object's type is Int, so the variable's type is Int as well. The variable stays this type forever.
+
+Next, the object is assigned to the variable. How does this happen?
+
 ## 3. The variable holds a reference to the object
 
 ## 4. Kotlin's basic types
