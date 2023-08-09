@@ -307,6 +307,34 @@ This approach works well if you want to convert a value into an object's that la
 
 ## 10. Watch out for overspill
 
+Trying to put a large valur into a small variable is like trying to pour a bucket-load of coffee into a tiny teacup. Some of the coffee will fit into the cup, but some will spill out.
+
+Suppose you want to out the value of a Long into an int. As you saw earlier in the chapter, a Long can hold lerger numbers than an Int.
+
+If the Long's value is within the range of values that an Int will hold, converting the value from a Long to an Int isn't problem. As an example, converting a Long value of 42 to an Int will give you an int with a value of 42:
+
+```KOTLIN
+var x = 42L
+
+var y: Int = x.toInt() // Value is 42
+```
+
+But if the Long's value is too big for an Int, the compiler chops up the value, and you're left with some weird(but calculable) number. As an example, if you try to convert a Long value if 1234567890123 to an Int, your Int wll have a value of 1912276171:
+
+NOTE
+
+It involes signs, bít, binary and other geekery that we're not going into here. If you're really curious, however, search for "two's complement".
+
+```KOTLIN
+var x = 1234567890123
+
+vả y: Int = x.toInt() // Value is 1912276171!
+```
+
+The key thing is that when you're converting numeric values from one type to another, make sure the type is large enough for the value of you may get unexpected results in your code.
+
+Now that you've seen how variables work and have some experience with Kotlin's basic types, have a go at the following exercise.
+
 ## 11. Store multiple values in an array
 
 ## 12. Create the PhraseO-Matic application
