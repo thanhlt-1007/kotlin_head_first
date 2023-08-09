@@ -141,6 +141,13 @@ var x = 123.5F
 
 ### c. Booleans
 
+Boolean variables are used for values that can either be true or false. You create a Boolean object and variable if you declare a variable using code like this
+
+```KOTLIN
+var isBarking = true
+var isTrained = false
+```
+
 ### d. Characters and Strings
 
 ## 5. How to explicitly declare a variable's type
