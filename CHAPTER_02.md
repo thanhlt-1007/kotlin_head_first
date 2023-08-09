@@ -200,6 +200,44 @@ When you assign a value to a variable, you need to make sure that the value is c
 
 ## 6. Use the right value for the variable's type
 
+As we said earlier in the chapter, the compiler really cares about a variab;e's type so that it can stop you from performing inappropriate operations that may lead to bugs in your code. As an example, if you try to assign a floating-point number such as 3.21 to an integer variable, the compiler will refuse to compile your code. The following code, for example, won't work
+
+```KOTLIN
+var x: Int = 3.21
+```
+
+The compiler realizes that 3.12 won't fit into an Int without some loss of precision (like, everything after the decimal point), so it refuses to compile the code.
+
+Similarly, if you try put a lerge integer into a variable that's too small for it, the compiler will get upset. If you try to assign a value of 500 to a Byte variable, for example, you'll get a compiler error
+
+```KOTLIN
+// This won't work
+
+var tinyNum: Byte = 500
+```
+
+So in order to assign a literal value to a variable, you need to make sure that the value is compatible with the variable's type. This is particularly important when you want to assign the value if one variable to another. We'll look at this next.
+
+The Kotlin compiler will only let you assign a value to a variable if the value and variable are compatible. If the value is too lerge or it's the wrong type, the code won't compile.
+
+THERE ARE NO DUMB QUESTIONS
+
+Q: In Java, numbers are primitives, so a variable holds the actual number. Is that not the case with Kotlin?
+
+A: No, it's not. In Kotlin, numbers are objects, and the variable holds a reference to the object, not the object itself.
+
+Q: Why does kotlin care so much about a variable's type ?
+
+A: Because it makes your code safer, and less prone to bugs. It might sound picky, but trust us, it's a good thing.
+
+Q: In Java, you can trat char primitives as numbers. Can you do the same for Chars in Kotlin?
+
+A: No, Chars in Kotlin are characters, not numbers. Repeat after us, Kotlin isn;t Java.
+
+Q: Can I name my variables anything I want?
+
+A: No. The rules are a little flexible, but you can't, say, give your variable a name that's a reserved word. Naming your variable while, for example, is just asking for trouble. But the great news is that if you try and give a variable a name that it's illegal, IntelliJ IDEA will immediateky highlight it as a problem.
+
 ## 7. Assigning a value to another variable
 
 ## 8. We need to convert the value
