@@ -125,6 +125,20 @@ Octal numbers aren't supported.
 
 ### b. Floating points
 
+There are two basic floating-point types: Float and Double. Floats can hold 32 bits, whereas Double can hold 64 bits.
+
+By default, if you declare a variable by assigning a floating-point number to it using code like:
+
+```KOTLIN
+var x = 123.5
+```
+
+you will create an object and variables of type Double. If you add and "F" ot "f" to the end of the number, a Float will get created instead:
+
+```KOTLIN
+var x = 123.5F
+```
+
 ### c. Booleans
 
 ### d. Characters and Strings
