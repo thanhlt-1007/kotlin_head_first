@@ -70,6 +70,16 @@ As the variable holds a reference to the object, this give it access to the obje
 
 ### a. val vs var revisited
 
+If you declare the variable using val, the reference to the object stays in the variable forever and can't be replaced. But if you use the var keyword instead, you can assign another value to the variable. As an example, if we use the code
+
+```KOTLIN
+x = 6
+```
+
+to assign a value of 6 to x, this creates a new Int object with a value of 6, and puts a reference to it into x. This replaces the original reference:
+
+Now that you've seen what happens when you declare a variable, let's look at some of Kotlin's basic types for integers, floating points, booleans, characters and Strings.
+
 ## 4. Kotlin's basic types
 
 ## 5. How to explicitly declare a variable's type
