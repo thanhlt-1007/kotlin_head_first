@@ -343,6 +343,28 @@ Arrays are greate if you want to quick and group of things. They're easy to crea
 
 You can think of an array as being like a tray of cups, where each item in the array is a variable:
 
+### a. How to create an array
+
+You create an array using the arrayOf() function. As an example, here's how you use the function to create an array with three items (the Ints 1, 2 and 3), and assign the array to a variable named myArray:
+
+```KOTLIN
+var myArray = arrayOf(1, 2, 3)
+```
+
+You can get the value of an item in the aray by referencing the aray variable with an index. As an example, here's how you print the value of the first item:
+
+```KOTLIN
+println(myArray[0])
+```
+
+And if you want to get the size of the array, use
+
+```KOTLIN
+myArray.size
+```
+
+On the next page, we'll put this together to write a serious bysiness application - the PhraseOMatic.
+
 ## 12. Create the PhraseO-Matic application
 
 ## 13. Add the code to PhraseOMatic.kt
