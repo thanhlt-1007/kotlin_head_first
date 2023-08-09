@@ -186,6 +186,18 @@ Similarly, if you want to declare a Byte variable, you use code like this:
 var tinyNum: Byte
 ```
 
+### a. Declaring the type AND assigning a value
+
+The above examples create variables without assinging values to them. If you want to explicitly declare a variable's type and assign a value to it, you can do that too. As an example, here's how you create a Short variable named z, and assign it a value of 6
+
+```KOTLIN
+var z: Short = 6
+```
+
+This example creates a variable named z with a type of Sort. The variable's value, 6, is small enough to fit into a Sort, so a Short object with a value of 6 is created. A reference to the Sort objects is then put into the variable.
+
+When you assign a value to a variable, you need to make sure that the value is compatible with the variable. We'll look at this in more detail on the next page.
+
 ## 6. Use the right value for the variable's type
 
 ## 7. Assigning a value to another variable
