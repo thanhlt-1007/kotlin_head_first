@@ -64,6 +64,12 @@ Next, the object is assigned to the variable. How does this happen?
 
 ## 3. The variable holds a reference to the object
 
+When an object is assigned to a variable, the object itself doesn't go into the variable. A reference to the object goes into the variable instead:
+
+As the variable holds a reference to the object, this give it access to the object.
+
+### a. val vs var revisited
+
 ## 4. Kotlin's basic types
 
 ## 5. How to explicitly declare a variable's type
