@@ -367,6 +367,16 @@ On the next page, we'll put this together to write a serious bysiness applicatio
 
 ## 12. Create the PhraseO-Matic application
 
+We're going to create a new application that generates useful makerting slogans. First create a new project in IntelliJ IDEA. To do this:
+
+1. Open InteiilJ IDEA and choose "Create New Project" from the welcome screen. This starts the wizard you saw in Chapter 1.
+
+2. When prompted, choose the options to create a Kotlin project that targets the JVM.
+
+3. Name the project "PhraseOmatic", accept the rest of the defaults, and click on the Finish button.
+
+4. When your new project appears in the IDE, create a new Kotlin file named PhraseOMatic.kt by highlighting the src folder, clicking on the File menu and choosing New -> Kotlin File/Class. When prompted, name the file "PhraseOMatic", and choose File from the Kind option.
+
 ## 13. Add the code to PhraseOMatic.kt
 
 ## 14. The compiler infers the array's type from its values
