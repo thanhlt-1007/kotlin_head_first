@@ -150,6 +150,24 @@ var isTrained = false
 
 ### d. Characters and Strings
 
+There are two more basic types: Char and String.
+
+Char variables are used for single characters. You create a Char variable by assigning a character in single quotes like this:
+
+```KOTLIN
+var letter = 'D'
+```
+
+String variables are used to hold multiple characters strung together. You create a String variable by assigning the characters enclosed in double quotes:
+
+```KOTLIN
+var name = "Fido"
+```
+
+Char variables are used for single characters. String variables are used for multiple characters strung together.
+
+In these situations, you need to explicitly declare the variable's type. We'll look at how you do this next.
+
 ## 5. How to explicitly declare a variable's type
 
 ## 6. Use the right value for the variable's type
