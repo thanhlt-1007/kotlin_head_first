@@ -295,6 +295,16 @@ Every numeric type has the following conversion functions: toByte(), toShort(), 
 
 ## 9. What happens when you convert a value
 
+### 1. var x = 5
+
+This create an Int variable named x, and an Int object with a value of 5. x holds a reference to that object.
+
+### 2. var z: Long = x.toLong()
+
+This creates a new Long variable, z. The toLong() function on x's object is called, and this creates a new Long object with a value of 5. A reference to the Long object gets put into the z variable.
+
+This approach works well if you want to convert a value into an object's that larger. But what if the new object is too small to contain the value?
+
 ## 10. Watch out for overspill
 
 ## 11. Store multiple values in an array
