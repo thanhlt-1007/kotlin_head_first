@@ -266,6 +266,10 @@ So how do you assign the value of one variable to another if the variables are o
 
 ## 8. We need to convert the value
 
+Suppose you want to assign the value of an Int variable to a Long. The compiler won't let you asign the value directly as the two variables are different types; a Long variable can only hold a reference to a Long object, so the code won't compile if you try and assign an Int to it.
+
+In order for the code to compile, you first have to convert the value to the right type. So if you want to assign the value of an Int variable to a Long, you first have to convert its value to a Long. And you do this using the Int object's functions.
+
 ## 9. What happens when you convert a value
 
 ## 10. Watch out for overspill
