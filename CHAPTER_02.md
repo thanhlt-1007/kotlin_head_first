@@ -278,6 +278,21 @@ An object's state refers to the data that's associated with the object: its prop
 
 An object's behavior describes the things the object can do, or that can be done to it. A String can be capitalized, for example. Numeric objects know how to perform basic math, and convert their value into an object of a different numeric type. The object's nehavior is exposed through its functions.
 
+### b. How to convert a numeric value to another type
+
+In our example, we want to assign the value of an Int variable to Long. Every numeric object has a function called toLong(), which takes the object's value, and uses it to create a new Long object. So if you want to assign the value of an Int variable to a Long, you use code like this:
+
+```KOTLIN
+var x = 5
+var z: Long = x.toLong()
+```
+
+The dot operator (.) allows you to call an object's functions. So x.toLong() is like saying "Go to the object that variable x has reference to, and call its toLong() function".
+
+We'll walk through what the code does on the next page.
+
+Every numeric type has the following conversion functions: toByte(), toShort(), toInt(), toLong(), toFloat() and toDouble().
+
 ## 9. What happens when you convert a value
 
 ## 10. Watch out for overspill
