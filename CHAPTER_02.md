@@ -82,6 +82,53 @@ Now that you've seen what happens when you declare a variable, let's look at som
 
 ## 4. Kotlin's basic types
 
+### a. Integers
+
+Kotlin has four basic integer types: Byte, Short, Int and Long. Each type can hold a fixed number of bits. Bytes can hold 8 bits, for example, so a Byte can hold integer values from -128 to 127. Ints, on the other hand, can hold 32 bits, so an Int can hold integer values from -2,147,483,648 to 2,147,483,647.
+
+By default, if you declare a variable by assigning an integer to it ysing code like this:
+
+```KOTLIN
+x = 1
+```
+
+you will create an object and variable of type Int. If the integer you assign is too large to fit into an Int, it will use a Long instead. You will also create a Long object and variable if you add an "L" to the end of the integer like this:
+
+```KOTLIN
+var hugeNumber = 6L
+```
+
+Here's a table showing the different integer types, their bit sizes and value ranges:
+
+| Type  | Bits    | Value range               |
+|-------|---------|---------------------------|
+| Byte  | 8 bits  | - 128 to 127              |
+| Short | 16 bits | -32768 to 32767           |
+| Int   | 32 bits | -2147483648 to 2147483647 |
+| Long  | 64 bits | -huge to (huge - 1)       |
+
+HEXADECIMAL AND BINARY NUMBERS
+
+Assign a binary number by prefixing the number with 0b.
+
+```KOTLIN
+x = 0b10
+```
+
+Assign a hexadecimal number by prefixing the number with 0x.
+
+```KOTLIN
+y = 0xAB
+```
+
+Octal numbers aren't supported.
+
+### b. Floating points
+
+### c. Booleans
+
+### d. Characters and Strings
+
 ## 5. How to explicitly declare a variable's type
 
 ## 6. Use the right value for the variable's type
