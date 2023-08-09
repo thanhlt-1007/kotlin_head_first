@@ -240,6 +240,30 @@ A: No. The rules are a little flexible, but you can't, say, give your variable a
 
 ## 7. Assigning a value to another variable
 
+When you assign the value of one variable to another, you need to make sure that their types are compatible. Let's see why by working through the following example:
+
+```KOTLIN
+var x = 5
+
+var y = x
+
+var z: Long = x
+```
+
+### 1. var x = 5
+
+This creates an Int variable named x, and an Int object with a value of 5. x holds a reference to that object.
+
+### 2. var y = x
+
+The compiler sees that x is an Int object, so it knows that y must also have a type of Int. Rather than create a second Int object, the value of variable x is assigned to variable y. But what does this mean? It's like saying "Take the bits in x, make a copy of them, and stick that copy into y". This means that both x and y contain references to the same object.
+
+### 3. var z: Long = x
+
+This line tells the compiler that you want o create a new Long variable, z, and assign it the value x. But there's a problem. The x variable contains a refernce to an Int object with a value of 5, not a Long object. We know that the object has a value of 5, and we know that 5 fits into a Long object. But because the z variable is a different type to the Int object, the compiler gets upset and refuses to compile the code.
+
+So how do you assign the value of one variable to another if the variables are of different types.
+
 ## 8. We need to convert the value
 
 ## 9. What happens when you convert a value
