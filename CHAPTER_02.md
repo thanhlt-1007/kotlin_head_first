@@ -42,6 +42,22 @@ You've already seen how to name a variable, and how to use the val and var keywo
 
 ## 2. What happens when you declare a variable
 
+### a. The value is tranformed into an object
+
+When you declare s variable using code like:
+
+```KOTLIN
+var x = 5
+```
+
+the value you're assigning to the variable is used to create a new object. In this example, you're assigning the number 5 to a new variable named x. The compiler knows that 5 is an integer, and so the code creates a new Int object with a value of 5:
+
+NOTE
+
+We're going to look at some different types in more detail a couple of pages ahead.
+
+### b. .. and the compiler infers the variable's type from that of the object
+
 ## 3. The variable holds a reference to the object
 
 ## 4. Kotlin's basic types
