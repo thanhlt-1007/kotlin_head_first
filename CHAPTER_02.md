@@ -270,6 +270,14 @@ Suppose you want to assign the value of an Int variable to a Long. The compiler 
 
 In order for the code to compile, you first have to convert the value to the right type. So if you want to assign the value of an Int variable to a Long, you first have to convert its value to a Long. And you do this using the Int object's functions.
 
+### a. An object has state and behavior
+
+Being an object means that it has two things: state and behavior.
+
+An object's state refers to the data that's associated with the object: its properties and values. A nummeric object, for example, has a numeric value, such as 5, 42 or 3.12 (depending on the object's type). A char object has a value that's a single character. A boolean is either true or false.
+
+An object's behavior describes the things the object can do, or that can be done to it. A String can be capitalized, for example. Numeric objects know how to perform basic math, and convert their value into an object of a different numeric type. The object's nehavior is exposed through its functions.
+
 ## 9. What happens when you convert a value
 
 ## 10. Watch out for overspill
