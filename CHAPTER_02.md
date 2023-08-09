@@ -337,6 +337,12 @@ Now that you've seen how variables work and have some experience with Kotlin's b
 
 ## 11. Store multiple values in an array
 
+There's one more type of obejct we want to introduce you to - the array. Suppose you wanted to store the names if liffty ice cream flavors, or the bar codes of all books in a library. To do that with variables would quickly get awkward, you can use an array.
+
+Arrays are greate if you want to quick and group of things. They're easy to create, and you get fast access to each item in the array.
+
+You can think of an array as being like a tray of cups, where each item in the array is a variable:
+
 ## 12. Create the PhraseO-Matic application
 
 ## 13. Add the code to PhraseOMatic.kt
