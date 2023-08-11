@@ -126,6 +126,32 @@ fun main(args: Array<String>) {
 
 ### a. You can send things to a function
 
+Sometimes, a function needs extra information in order for it to perform a task. If you're writing a function to determine the highest of two values, for examples, the function needs to know what these two values are.
+
+You tell the compiler what values a function can accept by specifying one or more parameters. Each parameter must have a name and type.
+
+As an example, here's how you specify that the foo function takes a single Int parameter name param:
+
+```KOTLIN
+fun foo(param: Int) { // You declare parameters inside the function's parentheses
+  println("Parameter is $param")
+}
+```
+
+You can then call the function and pass it an Int value:
+
+```KOTLIN
+foo(6) // We can't pass a String to foo as it onlt accepts an Int
+```
+
+PARAMETERLESS MAIN FUNCTION
+
+Depending on your programming background and personal preferences, you might use the term arguments or parameters for the values passed into a function. Although there are formal computer science distinctions that people who wear lab coast make, we have bigger fish to fry. You can call them whatever you like but we're doing it like this:
+
+A function use parameters. A caller passes it argements.
+
+Arguments are the things you pass into the functions. An argument (a value like 2 or "Pizza") lands face-down into a parameter. And a parameter os nothing more than a local variable: a variable with a name and type that's used inside the body of the function.
+
 ## 6. You can send more than one thing to a function
 
 ### a. Calling a two-parameter function, and sending it two arguments
