@@ -36,6 +36,24 @@ The game will be run in the IDE's output window.
 
 ## 2. A high-level design of the game
 
+Before we start writing the code for the game, we need to draw up a plan of how it will work.
+
+First, we need to figure out the general flow of the game. Here's the basic idea:
+
+1. You start the game.
+The application randomly choose one the options: Rock, Paper or Scissirs.
+
+2. The application asks for your choice.
+You type your choice in IDE's output window.
+
+3. The application validates your choice.
+If you haven't chosen a valid option, it goes back to step 2, and ask you for another choice. The game does this repeatedlly until you enter a valid options.
+
+4. The game displays the result.
+It tells you what choices you and the application have made, and whether you've won, lost, and the result is a draw.
+
+Now that we have a clearer idea of how the application will work, let's look at how we'll code it.
+
 ## 3. Here's what we're going to do
 
 ### a. Get started: create the project
