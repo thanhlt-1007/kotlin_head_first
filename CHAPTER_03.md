@@ -226,6 +226,27 @@ If you specify that your function has no return value, then you need to make sur
 
 ## 8. Functions with single-expression bodies
 
+If you have a function whose body consist of a single expression, you can simplify code by removing the curly braces and return statement from the function declaration. As an example, on the previous page, we showed you the follwoing function to return the higher of two values:
+
+```KOTLIN
+fun max(a: Int, b: Int) : Int {
+  val maxValue = if (a > b) a else b // The max function has a single expression in its body, which we then return
+  return maxValue
+}
+```
+
+The function returns the result of a single if expression, which means that we can rewrite the function like so:
+
+```KOTLIN
+fun max(a: Int, b: Int) : Int = if (a > b) a else b // Use = to say wjat the function returns, and remove the {}'s
+```
+
+And because the compiler can infer the function's return type from if expression, we can make the code even shorter by omitting the : Int:
+
+```KOTLIN
+func max(a: Int, b: Int) = if (a > b) a else b // The compiler knows that a and b are Ints, so it can work out the function's return type from the expression.
+```
+
 ### a. Create the getGameChoice function
 
 ## 9. Code Magnets
