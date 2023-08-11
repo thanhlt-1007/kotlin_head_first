@@ -477,6 +477,30 @@ In this book, we've decided to continue using Math.random() to generate random n
 
 ## 14. The compiler infers the array's type from its values
 
+You've seen how to create an array and access its items, so let's look at how you update its values
+
+Suppose you have an array of Ints named myArray:
+
+```KOTLIN
+var myArray = arrayOf(1, 2, 3)
+```
+
+If you want to update the second itm so that it has a value of 15, you use code like the following:
+
+```KOTLIN
+myArray[1] = 15
+```
+
+But there's a catch: the value to be the right type.
+
+The compiler looks at the type of each item in the array, and infers what type of items the array should contain forever. In the above example, we've declared an array using Int values, so the compiler infers that the array can hold Ints. If you try and put anything other than an Int into the array, your code won't compile:
+
+```KOTLIN
+myArray[1] = "Fido" // This won't compile
+```
+
+Arrays hold items of a specific type. You can either let the compiler infer the type from the array's values, or explicitly define the type using Array<Type>.
+
 ## 15. var means the variable can point to a different
 
 ## 16. val means the variable points to the same array forever...
