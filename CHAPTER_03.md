@@ -154,6 +154,8 @@ Arguments are the things you pass into the functions. An argument (a value like 
 
 ## 6. You can send more than one thing to a function
 
+If you want your function to have multiple parameters, you separate them with commas when you declare them, and separate the arguments with commas when you pass them to the function. Most importantly, if a function has multiple parameters, you must pass arguments of the right type in the right order.
+
 ### a. Calling a two-parameter function, and sending it two arguments
 
 ### b. You can pass variables to a function so long as the variable type matches the parameters type
