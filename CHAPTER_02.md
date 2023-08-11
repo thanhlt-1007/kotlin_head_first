@@ -524,6 +524,16 @@ myArray = arrayOf(4, 5)
 
 Let's walk through what happens.
 
+### 1. var myArray = arrayOf(1, 2, 3)
+
+This create an array of Ints, and a variable named myArray that holds a reference to it
+
+### 2. myArray = arrayOf(4, 5)
+
+This creates a new array of Ints. A reference to the new arrays gets put into the myArray variable, replacing the previous reference.
+
+So what happens if we use the variable using val instead?
+
 ## 16. val means the variable points to the same array forever...
 
 ## 17. Code Magnets
