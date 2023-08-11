@@ -501,6 +501,16 @@ myArray[1] = "Fido" // This won't compile
 
 Arrays hold items of a specific type. You can either let the compiler infer the type from the array's values, or explicitly define the type using Array<Type>.
 
+### a. How to explicitly define the array's type
+
+Just as we did with other variables, you can explicitly define what type of items an array should hold. As an example, suppose you wanted to declare an array that hold Byte values. To do this, you would use code like the following
+
+```KOTLIN
+var myArray: Array<Byte> = arrayOf(1, 2, 3)
+```
+
+The code Array<Byte> tells the compiler that you want to create an array that holds Byte variables. In general, simply specify the type of array you want to create by putting the type between the angle brackets (<>).
+
 ## 15. var means the variable can point to a different
 
 ## 16. val means the variable points to the same array forever...
