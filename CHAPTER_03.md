@@ -158,6 +158,17 @@ If you want your function to have multiple parameters, you separate them with co
 
 ### a. Calling a two-parameter function, and sending it two arguments
 
+```KOTLIN
+fun main(args: Array<String>) {
+  printSum(5, 6)
+}
+
+fun printSum(int1: Int, int2: Int) {
+  var result = int1 + int2
+  println(result)
+}
+```
+
 ### b. You can pass variables to a function so long as the variable type matches the parameters type
 
 ## 7. You can get things back from a function
