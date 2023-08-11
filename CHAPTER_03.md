@@ -26,6 +26,14 @@ In this chapter, we've going to take a closer look at how functions work by buil
 
 ### a. How the game will work
 
+Goal: Make a guess that beats the computer's, and win!
+
+Setup: When the application is launched, the game chooses Rock, Paper or Scissors at random. It then ask you to choose one of these options.
+
+The rules: The game compares the two choices. If they are the same, the result is a draw. if the choices are different, hower, the game determines the winner using the following rules:
+
+The game will be run in the IDE's output window.
+
 ## 2. A high-level design of the game
 
 ## 3. Here's what we're going to do
