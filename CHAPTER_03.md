@@ -94,6 +94,18 @@ We'll start by creating the array.
 
 ### a. Create the Rock, Paper, Scissors array
 
+We'll create the array using the arrayOf function, just as we did in the previous chapter. We'll add this code to the application's main function launches. This also means that we'll be able to use it in the rest of the code we'll write later in the chapter.
+
+To create the main function and add the array, update your version of Game.kt to match ours below:
+
+```KOTLIN
+fun main(args: Array<String>) {
+  val options = arrayOf("Rock", "Paper", "Scissors")
+}
+```
+
+Now that we've created the array, we need to define the new getGameChoice function. Before we can do this, we need to understand more about how you create functions.
+
 ## 5. How you create functions
 
 ### a. You can send things to a function
