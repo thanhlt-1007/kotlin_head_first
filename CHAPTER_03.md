@@ -56,6 +56,20 @@ Now that we have a clearer idea of how the application will work, let's look at 
 
 ## 3. Here's what we're going to do
 
+There ara a number of steps we're going to go through to build the game:
+
+### 1. Get the game to choose an option.
+
+We'll create a new function named getGameChoice which will choose one of "Rock", "Paper" of "Scissors" at random.
+
+### 2. Ask the user for their choice.
+
+We'll do this by writting another new function named getUserChoice, and this will ask the user to enter their choice. We'll make sure they've entered a valid choice, and if they haven't, we'll keep asking them until they do.
+
+### 3. Print the result.
+
+We'll write a function named printResult, which will figure out whether the user won or lost, or whether the result is a tie. The function will then print the result.
+
 ### a. Get started: create the project
 
 ## 4. Get the gane to choosen an option
