@@ -8,6 +8,22 @@ So far, all the code you've written has been inside your application's main func
 
 ## 1. Let's build a game: Rock, Paper, Scissors
 
+In all the code example you've seen so far, we've added code to the application's main function. As you already know, this function launches your application as it's the function that gets executed when you run it.
+
+This approach has worked well while we've been learning Kotlin's basic syntax, bust most applications in the real-world split the code across multiple functions. This is because:
+
+- It makes your code more organized
+
+Instead of having all your code in one long main function, it's split into more manageable chunks. This makes the code much easier to read and understand.
+
+- It makes your code more reusable
+
+By spliting the code into separate functions, you can reuse it elsewhere.
+
+Each functions is a named section of code that performs a specific task. As an example, you could write a function name max that determines the highest value of two values, and then call this function at various stages in your application.
+
+In this chapter, we've going to take a closer look at how functions work by building a game Rock, Paper, Scissors.
+
 ### a. How the game will work
 
 ## 2. A high-level design of the game
