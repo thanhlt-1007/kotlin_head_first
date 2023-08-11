@@ -80,6 +80,18 @@ Now that you've created the project, let's start writing some code.
 
 ## 4. Get the gane to choosen an option
 
+The first thing we'll do is get the game to choose one of the options (Rock, Paper or Scissors) at random. Here's what we'll do:
+
+### 1. Create an array that contains the Strings "Rock", "Paper" and "Scissors"
+
+We'll add this to the application's main function.
+
+### 2. Create a new getGameChoice function that will choose one of the options at random.
+
+### 3. Call the getGameChoice function from the main function.
+
+We'll start by creating the array.
+
 ### a. Create the Rock, Paper, Scissors array
 
 ## 5. How you create functions
