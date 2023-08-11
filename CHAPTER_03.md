@@ -2,6 +2,10 @@
 
 ## Getting Out Of Main
 
+It's time to take it up a notch, and learn about functions.
+
+So far, all the code you've written has been inside your application's main function. But if you want to write code that's better organized and easier to maintain, you need to know how to split your code into separate functions. In this chapter, you'll learn how to write functions and interact with your application by building a game. You'll disciver how to write compact single expression functions. Along the way you'll find out how to interate through range and collections using the powerful loop.
+
 ## 1. Let's build a game: Rock, Paper, Scissors
 
 ### a. How the game will work
