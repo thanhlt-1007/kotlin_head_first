@@ -513,6 +513,17 @@ The code Array<Byte> tells the compiler that you want to create an array that ho
 
 ## 15. var means the variable can point to a different
 
+There's one final thing we need to look at: what effect val and var have when you declare an array.
+
+As you already know, a variable holds a reference to an object. When you declare a variable using var, you can update the variable so that it holds a reference to different object instead. If the variable holds a reference to an array, this means that you can upadte the variable so that it refers to a different array of the same type. As an example, the following code is perfectly valid and will compile:
+
+```KOTLIN
+var myArray = arrayOf(1, 2, 3)
+myArray = arrayOf(4, 5)
+```
+
+Let's walk through what happens.
+
 ## 16. val means the variable points to the same array forever...
 
 ## 17. Code Magnets
