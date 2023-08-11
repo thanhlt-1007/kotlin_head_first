@@ -72,6 +72,8 @@ We'll write a function named printResult, which will figure out whether the user
 
 ### a. Get started: create the project
 
+We'll write a function named printResult, which will figure out whether the user won or lost, or whether the result is a tie. The function will then print the result.
+
 ## 4. Get the gane to choosen an option
 
 ### a. Create the Rock, Paper, Scissors array
