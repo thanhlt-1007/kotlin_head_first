@@ -108,6 +108,22 @@ Now that we've created the array, we need to define the new getGameChoice functi
 
 ## 5. How you create functions
 
+As you learned back in Chapter 1, you define new functions using the fun keyword, followed by the name of function. As an example, if you wanted to create a new function named foo, you'd write code like this:
+
+```KOTLIN
+fun foo() {
+  // Your code goes here
+}
+```
+
+Once you've written the function, you can call it from elsewhere in your application:
+
+```KOTLIN
+fun main(args: Array<String>) {
+  foo() // This runs a function named foo
+}
+```
+
 ### a. You can send things to a function
 
 ## 6. You can send more than one thing to a function
