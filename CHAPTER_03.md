@@ -72,6 +72,12 @@ We'll write a function named printResult, which will figure out whether the user
 
 ### a. Get started: create the project
 
+We'll start by creating a project for the application. You do this in exactly the same way you did in previous chapters.
+
+Create a new Kotlin project that targets the JVM, and name the project "Rock Paper Scissors". Then create a new Kotlin file named Game.kt highlighting the src folder, clicking on the FIle menu and choosing New -> Kotlin File / Class. When prompted, name the file "Game", and choose File from the Kind option.
+
+Now that you've created the project, let's start writing some code.
+
 ## 4. Get the gane to choosen an option
 
 ### a. Create the Rock, Paper, Scissors array
