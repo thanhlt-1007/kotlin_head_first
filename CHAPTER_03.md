@@ -188,6 +188,24 @@ As well as passing values to a function, you can also get things back. Let's see
 
 ## 7. You can get things back from a function
 
+If you want to get something back from a function, you need to declare it. As an example, here's how you declare that a function named max returns an Int value:
+
+```KOTLIN
+fun max(a: Int, b: Int): Int { // The : Int tells the compiler that the function returns an Int value
+  val maxvalue = if (a > b) a else b
+  return maxValue // You return a value using the return keyword, followed by the value you're returning
+}
+```
+
+If you declare that a function returns a value, then you must return a value of the declared type. As an example, the following code is invalid because it returns a String instead of an Int:
+
+```KOTLIN
+fun max(a: Int, b: Int): Int {
+  val maxvalue = if (a > b ) a else b
+  return "Fish" // We've declared that the function returns an Int value, so that the compiler will get upset if you try and return something else, like a String.
+}
+```
+
 ### a. Functions with no return value
 
 ## 8. Functions with single-expression bodies
