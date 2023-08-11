@@ -547,6 +547,25 @@ Once the variable is assigned an array, it holds a reference to that array forev
 
 Declaring a variable using val means that you can't reuse the variable for another object. You can, however, still update the object itself.
 
+### a. ...but you can still update the variables in the aray
+
+When you declare a variable using val, you're telling the compiler that you want to create a variable that can't be reused for other values. But this instruction only applies to the variable itself. If the variable holds a reference to an array, the items in the array can still be updated.
+
+As an example, suppose you have the following code:
+
+```KOTLIN
+val myArray = arrayOf(1, 2, 3)
+myArray[2] = 6
+```
+
+This creates a variable named myArray that holds a reference to an array of Ints. It's declared using val, so the variable must hold a reference to the same array for the duration of the program. The third item in the array is then successfully update to 6, as the array itself can be updated:
+
+Now that you know how arrays work in Kotlinville, have a go at the following exercises.
+
+BE THE COMPILER
+
+Each of the Kotlin files on this page represents a complete source file. Your job is to play like you're compiler and determine whether each of these files will compile and run without errors. If they won't, how wouch you fix them?
+
 ## 17. Code Magnets
 
 ## 18. Code Magnets Solution
