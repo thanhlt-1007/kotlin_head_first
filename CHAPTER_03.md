@@ -171,6 +171,21 @@ fun printSum(int1: Int, int2: Int) {
 
 ### b. You can pass variables to a function so long as the variable type matches the parameters type
 
+```KOTLIN
+fun main(args: Array<String>) {
+  val x: Int = 7
+  val y: Int = 8
+  printSum(x, 7)
+}
+
+fun printSum(int1: Int, int2: Int) {
+  val result = int1 + int2
+  println(result)
+}
+```
+
+As well as passing values to a function, you can also get things back. Let's see how.
+
 ## 7. You can get things back from a function
 
 ### a. Functions with no return value
