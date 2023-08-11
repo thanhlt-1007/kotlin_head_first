@@ -536,6 +536,17 @@ So what happens if we use the variable using val instead?
 
 ## 16. val means the variable points to the same array forever...
 
+When you declare an array using val, you can no longer update the variable so that it holds a reference to a different array. The following code, for example, won't compile:
+
+```KOTLIN
+val myArray = arrayOf(1, 2, 3)
+myArray = arrayOf(4, 5)
+```
+
+Once the variable is assigned an array, it holds a reference to that array forever. But even though the variable maintains a reference to the same array, the array itself can still be updated.
+
+Declaring a variable using val means that you can't reuse the variable for another object. You can, however, still update the object itself.
+
 ## 17. Code Magnets
 
 ## 18. Code Magnets Solution
