@@ -208,6 +208,22 @@ fun max(a: Int, b: Int): Int {
 
 ### a. Functions with no return value
 
+If you don't want your function to return a value, you can either omit the return type from the function declaration, or specify a return type of Unit. Declaring a return type of Unit means that the function returns no value. As an example, the following two function declaration are both valid, and do the same thing:
+
+```KOTLIN
+fun printSum(int1: Int, int2: Int) {
+  val result = int1 + int2
+  println(result)
+}
+
+fun printSum(int1: Int, int2: Int) : Unit { // The : Unit here means that the function returns no value. It's completely optional.
+  val result = int1 + int2
+  println(result)
+}
+```
+
+If you specify that your function has no return value, then you need to make sure that it doesn't return one. If you try to return a value in a function with no declared return type, or a return type of Unit, your code won't compile.
+
 ## 8. Functions with single-expression bodies
 
 ### a. Create the getGameChoice function
