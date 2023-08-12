@@ -257,6 +257,18 @@ Now that you've learned how to create functions, see if you can write the getGam
 
 ## 11. Add the getGameChoice funcrion to Game.kt
 
+Now that we've added the getGameChoice function to our application, let's look at what's going on behind the scenes when the code runs
+
+THERE ARE NO DUMB QUESTION
+
+Q: Can I return more than one value from a function?
+
+A: A function can declare only one return value. But if you want to, say, return three Int values, then the declared type can be an array of Ints (Array<Int>). Put those Ints into the array, and pass it back.
+
+Q: Do I have to do something with the return value of a function? Can I just ignore it?
+
+A: Kotlin doesn't require you to acknowledge a return value. You might want to call a function with a return type, even though you don't caer about the return value. In this case, you're calling the function for the work it does inside the function, rather than for what it returns. You don't have to assign or use the return value.
+
 ## 12. Behind the scenes: what happens
 
 ## 13. The story continues
