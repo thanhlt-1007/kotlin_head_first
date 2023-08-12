@@ -344,6 +344,27 @@ fun myFunction(message: String) {
 
 ## 14. The getUserChoice function
 
+Now that we've written the code to make the game choosen an option, we can move onto the next step: getting the user's choice. We'll write a new function to do this called getUserChoice, which we'll call from the main function. We'll pass the options array to the getUserChoice functions as a parameter, and we'll get it to return the user's choice (a String):
+
+```KOTLIN
+fun getUserChoice(optionsParam: Array<String>) : String {
+  // Code goes here
+}
+```
+
+Let's go through what we need the getUserChoice function to do it:
+
+### 1. Ask the user for their choice.
+We'll loop through the items in the option array, and ask the user to type their choice into the output window.
+
+### 2. Read the user's choice from the output window.
+After the user's entered their choice, we'll assign its valus to a new value variable.
+
+### 3. Validate the user's choice.
+We'check that the user has entered a choice, and that it's in the array. If the user has entered a valid choice, we'll get the function to return it. If they haven't, we;ll keep asking until they do.
+
+Let's start with the code to prompt the user for their choice.
+
 ### a. Ask for the user's choice
 
 ## 15. How for loops work
