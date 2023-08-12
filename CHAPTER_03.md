@@ -249,6 +249,8 @@ func max(a: Int, b: Int) = if (a > b) a else b // The compiler knows that a and 
 
 ### a. Create the getGameChoice function
 
+Now that you've learned how to create functions, see if you can write the getGameChoice function for Rock, Paper, Scissors game by having a go at the following exercise.
+
 ## 9. Code Magnets
 
 ## 10. Code Magnets Solution
