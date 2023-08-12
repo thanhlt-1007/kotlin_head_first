@@ -271,6 +271,16 @@ A: Kotlin doesn't require you to acknowledge a return value. You might want to c
 
 ## 12. Behind the scenes: what happens
 
+When the code runs, the following things happen:
+
+### 1. val options = arrayOf("Rock", "Paper", "Scissors")
+
+This creates an array of Strings, and a variable maned options that holds a reference to it
+
+### 2. val gameChoice = getGameChoice(options)
+
+The contents of the options variable get passed to the getGameChoice function. The options variable holds a reference to an array of Strings, so a copy of the reference gets passed to the getGameChoice function, and lands in its optionsParam parameter. This means that the options and optionsParam variables both hold a reference to the same array.
+
 ## 13. The story continues
 
 ## 14. The getUserChoice function
