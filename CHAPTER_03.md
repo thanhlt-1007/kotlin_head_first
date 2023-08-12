@@ -283,6 +283,65 @@ The contents of the options variable get passed to the getGameChoice function. T
 
 ## 13. The story continues
 
+### 1. fun getGameChoice(optionsParam: Array<String>) = options[(Math.random() * optionsParam.size).toInt()]
+
+The getGameChoice function selects one of the optionsParam's items at random (for examplem, the "Scissors" item). The function returns a reference to this item.
+
+### 2. val gameChoice = getGameChoice(options)
+
+This puts the reference returned by the getGameChoice function into a new variable named gameChoice. If, for example, the getGameChoice function returns a reference to the "Scissors" object is put into the gameChoice variable.
+
+So when you pass a value to a function, you're really passing it a reference to an object. Does this mean you can make changes to the underlying object?
+
+#### Yes, you can
+
+As an example, suppose you have the following code:
+
+```KOTLIN
+fun main(args: Array<String>) {
+  val options = arrayOf("Rock", "Paper", "Scissors")
+  updateArray(options)
+  println(options[2])
+}
+
+fun updateArray(optionsParam: Array<String>) {
+  optionsParam[2] = "Fred"
+}
+```
+
+The main function creates an array containing the Strings "Rock", "paper" and "Scissors". A reference to this array is passed to the updateArray function, which updates the thỉd item of the array to "Fred". Finally, the main function prints the value of the array's thỉd items, so it prints the text "Fred".
+
+LOCAL VARIABLES UP CLOSE
+
+As we said earlier in the chapter, a local variable is one that's used inside the body of a function. They're declared within a function, and they're only visible inside that function. If you try to use a variabl that's defined in another function, you'll get a compiler error, as in the example below:
+
+```KOTLIN
+fun main(args: Array<String>) {
+  var x = 6
+}
+
+fun myFunction() {
+  var y = x + 3 // This code won't compile because myFunction can't see the x variable that's declared in main
+}
+```
+
+Any local variables must be initialized before they can be used. If you're using a variable for a function's return value, for example, you must initialize that variable or the compiler will get upset
+
+fun myFunction(): String {
+  var message: String
+  return message // You must initialize a variable if you want to use it as a function's return value, so this code won't compile
+}
+
+Function parameters are virtual the same as local variables, as they only exist within the context of the function. They're always initialized, however, so tiy'll never get a compiler error telling you that a parameter variable might not have been initialized. This is because the compiler will give you an error message if you try to invoke a function without sending the arguments that the function needs; the compiler guarantees that functions are always called with arguments that match the parameters declared in the function, and the arguments are automatically assigned to the parameters.
+
+Note that you can't assign a new value to any of a function's parameter variables. Behind the scenes, the parameter variables are created as local val variables that can't be reused for other values. The following code, for example, won't compile because we're trying to assign a new value to the function's parameter variable:
+
+```KOTLIN
+fun myFunction(message: String) {
+  message = "Hi!" // Parameter variables are treated as local variables created using val, so you can't reuse them for other values
+}
+```
+
 ## 14. The getUserChoice function
 
 ### a. Ask for the user's choice
