@@ -367,6 +367,16 @@ Let's start with the code to prompt the user for their choice.
 
 ### a. Ask for the user's choice
 
+To ask the user to input their choice of option, we'll make the getUserChoice function print the following message: "Please enter one of the following: Rock, Paper, Scissors."
+
+One way of doing this would be to hard-code the message using the println function like this:
+
+```KOTLIN
+println("Please enter one of the following: Rock, Paper, Scissors.")
+```
+
+Instead of using a while loop to do this, we're going to use a new type of loop called a for loop. Let's see how it works.
+
 ## 15. How for loops work
 
 ### a. Looping through a range of numbers
