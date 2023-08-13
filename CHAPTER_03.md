@@ -379,6 +379,8 @@ Instead of using a while loop to do this, we're going to use a new type of loop 
 
 ## 15. How for loops work
 
+A for loop is useful in situations where you want to loop through a fixed range of numbers, or through every item in an array (or some other type of collection - we'll look at this collections in Chapter 9). Let's look at how you do this.
+
 ### a. Looping through a range of numbers
 
 ### b. Use downTo to reverse the range
