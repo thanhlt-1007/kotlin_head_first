@@ -383,6 +383,86 @@ A for loop is useful in situations where you want to loop through a fixed range 
 
 ### a. Looping through a range of numbers
 
+Suppose you wanted to loop through a range of numbers, from 1 to 10. You've already seen how to do this kind of thing using a while loop:
+
+```KOTLIN
+var x = 1
+while (x < 11) {
+  // Your code goes here
+  x += 1
+}
+```
+
+But it's much cleaner, and requires hewer line of code, if you use a for loop instead. Here's the equivalent code:
+
+```KOTLIN
+for (x in 1..10) {
+  // Your code goes here
+}
+```
+
+It's like saying "for each number between 1 and 10, assign the number to a variable named x, and run the body of the loop".
+
+To loop through a range of numbers, you first specify a name for the variable the loop should use. In the above case, we;ve named the variable x, but you can use any valid variable name. The variable gets created when the loop runs.
+
+You specify the range of values using the .. operator. In the case above, we've used a range of 1..10, so the code loops through the numbers 1 through 10. At the beginning of each loop, it assigns the current number to the variable (in our case x).
+
+Just like a while loop, if the loop body consist of a single statement, you can omit the curly braces. As an example, here's how you would use a for loop to print the numbers 1 to 100:
+
+```KOTLIN
+for (x in 1..10) println(x)
+```
+
+Note that the .. operator includes the end number in its range. If you wanted to exclude it, you would replace the .. operator with until. As an example, the following code prints the numbers from 1 to 99, excludes 100:
+
+```KOTLIN
+for (x in 1 until 100) println(x)
+```
+
+MATH SHORTCUTS
+
+The increment operator ++ adds 1 to a variable. So:
+
+```KOTLIN
+x++
+```
+
+is a shortcut for
+
+```KOTLIN
+x = x + 1
+```
+
+Similarly, the decrement operator -- substract 1 from a value. Use:
+
+```KOTLIN
+x--
+```
+
+as a shortcut for
+
+```KOTLIN
+x = x - 1
+```
+
+If you want to add a number other than 1 to a variable, you can use the += operator. So:
+
+```KOTLIN
+x += 2
+```
+
+does the same as
+
+```KOTLIN
+x = x + 2
+```
+
+Similarly, you can use -=, *= and /= shortcuts for subtraction, multiplication and division.
+
+While loops run while a given condition is true.
+
+For loops run over a range of values or items.
+
 ### b. Use downTo to reverse the range
 
 ### c. Use step to skip numbers in the range
