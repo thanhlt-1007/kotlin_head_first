@@ -481,6 +481,32 @@ for (x in 1 .. 100 step 2) println(x)
 
 ### d. Looping through the items in an array
 
+You can also use a for loop to interate through the items in an array. In our case, for example, we want to loop through the items in an array named options. To do this, we can use a for loop in this format:
+
+```KOTLIN
+for (item in optionsParam) { // This loops through each item in an array named optionsParam
+  println("$item is an item in this array")
+}
+```
+
+You can also loop through an array's indices using code like this:
+
+```KOTLIN
+for (item in optionsParam) {
+  println("$item is an item in the array")
+}
+```
+
+You can even simplify the above loop by returning the arry's index and value as part of the loop:
+
+```KOTLIN
+for ((index, item) in optionsParam.withIndex()) { // This loops through each item in the array. It assigns the item's index to the index variable, and the item itself to the item variable.
+  println("Index $index has item $item")
+}
+```
+
+Now that you know how for loops work, let's write the code that will ask the user to enter one of "Rock", "Paper" or "Scissors".
+
 ## 16. Ask the user for their choice
 
 ### a. Use the readLine function to read the user's input
