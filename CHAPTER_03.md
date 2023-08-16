@@ -568,6 +568,26 @@ You're already familiar with most of the code needed to do this, but to write co
 
 ### a. "And" and "Or" operators (&& and ||)
 
+Let's say you're writting code to choose a new phone, with lost of rules about which phone to select. You might, say want to limit the price range so that it's between $200 and $300. To do this, you use code like this:
+
+```KOTLIN
+if (price <= 10 || price >= 1000) {
+  // Phone is too cheap or too expensive
+}
+```
+
+The && means "and". It evaluates to true if both sides of the && are true. When then code gets run, Kotlin first evaluates the left side of the expression. If this is false, Kotlin doesn't bother evaluating the right side. As one side of the expression is false, this mean that the entire expression must be false.
+
+If you want to use an "or" expression instead, you use the || operator:
+
+```KOTLIN
+if (price >= 200 && price <= 300) {
+  // Code to choose the phone
+}
+```
+
+This expression evaluates to true if either side of the || is true. This time, Kotlin doesn't evaluate the right side of the expression if the left side is true.
+
 ### b. Not equals (!= and !)
 
 ### c. Use parenthese to make your code clear
