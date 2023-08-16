@@ -764,3 +764,23 @@ userInput = userInput.capitalize()
 So you could convert the user input to an appropriate format before checking if it matches any of the values in the array.
 
 ## 20. Your Kotlin Toolbox
+
+BULLET POINTS
+
+- Use function to organoze your code and make it more reuseble.
+
+- A function can have parameters, so you can pass more than one value to it.
+
+- The number and type of values you pass to the function must match the order and type of the parameters declared by the function.
+
+- A function can return a value. You must define the type of value (if any) it returns.
+
+- A Unit return type means that the function doesn't return anything.
+
+- Choose for loop over while loops when you know how many times you want to repeat the loop code.
+
+- The readLine() function reads a line of input from the standard input stream. It return a String value, the text entered by the user.
+
+- If the input stream has been redirected to a file and the end of the file has been reached, the readLine() function returns null. null means it has no value, or it's missing.
+
+- && means "and". || means "or". ! means "not".
