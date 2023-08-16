@@ -590,6 +590,24 @@ This expression evaluates to true if either side of the || is true. This time, K
 
 ### b. Not equals (!= and !)
 
+Suppose you wanted to run code for all phones except one model. To do this, you'd use code like the following:
+
+```KOTLIN
+if (model != 2000) {
+  // Code that runs if model is not 2000
+}
+```
+
+The != means "is not equal to".
+
+Similarly, you can use ! to indicate "not". As an example, the following loop runs while the isBroken variable is not true:
+
+```KOTLIN
+while (!isBroken) {
+  // Code that runs if the phone is not broken
+}
+```
+
 ### c. Use parenthese to make your code clear
 
 ## 18. Add the getUserChoice function to Game.kt
