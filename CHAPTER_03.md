@@ -610,6 +610,22 @@ while (!isBroken) {
 
 ### c. Use parenthese to make your code clear
 
+Boolean expression can get really big and complicated:
+
+```KOTLIN
+if (
+  (price <= 500 && memory >= 26) ||
+  (price <= 750 && memory >= 32) ||
+  (price <= 1000 && memory >= 64)
+) {
+  // Do something appropriate
+}
+```
+
+If you want to get really technical, you might wonder about the prededence of these operators. Instead of becoming an expert in the arcame world of precedence, we recommend that you use parenthese to make your code cleaner.
+
+Now that you've seen more powerful boolean expressions, we'll show you the remaining code for the getUserChoice function, and add it to the application.
+
 ## 18. Add the getUserChoice function to Game.kt
 
 ### a. Test drive
