@@ -747,4 +747,20 @@ That's all the code we need for our application. Let's see what happends when we
 
 ### a. Test drive
 
+THERE ARE NO DUMP QUESTIONS
+
+Q: I entered an option of "paper" but the game told me I'd entered an invalid option. Why's that?
+
+A: It's because you entered a lowercase String, instead of one that starts with an initial capital letter. The game requires you to enter one of "Rock", "Paper" or "Scissors", and it doesn't recognize "paper" as one of the options.
+
+Q: Can I get Kotlin to ignore the case? Can I capitalize the user input before checking whether it's in the array?
+
+A: Kotlin includes toLowerCase, toUpperCase and capitalize functions to create a lowercase, uppercase or capitalized version of a String. As an example, here's how you would use the capitalize function to capitalize the first letter of the String named userInout:
+
+```KOTLIN
+userInput = userInput.capitalize()
+```
+
+So you could convert the user input to an appropriate format before checking if it matches any of the values in the array.
+
 ## 20. Your Kotlin Toolbox
