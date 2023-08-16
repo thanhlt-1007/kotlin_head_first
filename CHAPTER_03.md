@@ -681,6 +681,18 @@ Let's take the code for a test drive, and see wjat happens when it runs.
 
 ### b. We need to print the results
 
+The final thing we need our application to do is print the results. As a reminder if the user and the game make the same choice, the result is a tie. If the choices are different, however, the game determines the winner using the follwing rules:
+
+| Choice          | Results |
+|-----------------|---------|
+| Scissors, Paper | The Scissors choice is win, as Scissors can cut Paper. |
+| Rock, Scissors  | The Rock choice is win, as Rock can blunt Scissors.    |
+| Paper, Rock     | The Paper choice is wins, as paper can cover the Rock. |
+
+We'll print the results in a new function named printResult. We'll call this function from main, and pass it two parameters: the user's choice and the game's choice.
+
+Before we sjpw you the code fro the function, see if you can figure it for yourself by having a go at the following exercise.
+
 ## 19. Add the printResult function to Game.kt
 
 ### a. Test drive
