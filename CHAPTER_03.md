@@ -509,6 +509,17 @@ Now that you know how for loops work, let's write the code that will ask the use
 
 ## 16. Ask the user for their choice
 
+We're going to use a for loop to print the text "Please enter one of the following: Rock Paper Scissors." Here's the code that will do this; we'll update Game.kt later in the chapter when we've finished writing the getUserChoice function:
+
+```KOTLIN
+fun getUserChoice(optionsParam: Array<String>) {
+  // Ask the user for their choice
+  println("Please enter one of the following:")
+  for (item in optionsParam) print("$item")
+  println(".")
+}
+```
+
 ### a. Use the readLine function to read the user's input
 
 ## 17. We need to variable the user's input
