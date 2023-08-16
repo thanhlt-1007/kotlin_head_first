@@ -628,6 +628,55 @@ Now that you've seen more powerful boolean expressions, we'll show you the remai
 
 ## 18. Add the getUserChoice function to Game.kt
 
+Below is the revise code for the application, including the complete getUserChoice function. Update your version of Game.kt so that it matches ours (our change are in bold):
+
+```KOTLIN
+func main(args: Array<String>) {
+  val options = arrayOf("Rock", "Paper", "Scissors")
+  val gameChoice = getGameChoice(options)
+  // Call the getUserChoice function
+  val userChoice = getUserChoice(options)
+}
+
+fun getGameChoice(optionsParam: Array<String>) {
+  optionsParam[(Math.random() * optionsParam.size).toInt()]
+}
+
+fun getUserChoice(optionsParam: Array<String>) {
+  // We'll use the isValidChoice variable to indicate whether the user has entered a valid choice
+  var isValidChoice = false
+  var userChoice = ""
+
+  // Loop until the user enters a valid choice
+  // Keep looping until isValidChoice is true
+  while (!isValidChoice) {
+    // Ask the user fpr their choice
+    print("Please enter one of the following:")
+    for (item in optionsParam) print(" $item")
+    println(".")
+
+    // Read the user input
+    val userInput = readLine()
+
+    // Validate the user input
+    // Check that the user input isn't null, and that it's in the options array
+    if (userInput != null && userInput in oprionsParam) {
+      // If the usrt input is OK, we can stop looping
+      isValidChoice = true
+      userChoice = userInput
+    }
+
+    // If the choice is invalid, inform the user
+    // If the user input is invalid, we'll keep looping
+    if (!isValidChoice) println("You must enter a valid choice.")
+  }
+
+  return userChoice
+}
+```
+
+Let's take the code for a test drive, and see wjat happens when it runs.
+
 ### a. Test drive
 
 ### b. We need to print the results
