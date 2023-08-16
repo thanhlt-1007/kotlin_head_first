@@ -473,6 +473,12 @@ for (x in 15 downTo 1) println(x) // Using downTo instead of ... loops through t
 
 ### c. Use step to skip numbers in the range
 
+be default, the .. operator, until and downTo step through the range one number at a time. If you want, you can increase the size of the step using step. As an example, the following code prints alternate numbers from 1 to 100:
+
+```KOTLIN
+for (x in 1 .. 100 step 2) println(x)
+```
+
 ### d. Looping through the items in an array
 
 ## 16. Ask the user for their choice
