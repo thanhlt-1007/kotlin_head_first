@@ -522,6 +522,32 @@ fun getUserChoice(optionsParam: Array<String>) {
 
 ### a. Use the readLine function to read the user's input
 
+After we've asked the user to enter their choice, we need to read their response. We;ll do this by calling the readLine() function:
+
+```KOTLIN
+val userInput = readLine()
+```
+
+The readLine() function reads a line of input from the standard input stream (in our case, the output window in the IDE). It returns a String value, the text entered by the user.
+
+If the input stream for your application has been redirected to a file, the readline() function returns null if the end of file has been reached. null means that it has no value, or that it's missing.
+
+Here's an updated version of the getUserChoice function (we'll add it to our application when've finish writing it):
+
+```KOTLIN
+fun getUserChoice(optionsParam: Array<String>) {
+  // Ask the user for their choice
+  print("Please enter one of the following:")
+  for (item in optionsParam) println("$item")
+  println(".")
+
+  // Read the user input
+  val userInput = readLine() // This reads the user's input from the standard input stream. In our case, this is the output window in the IDE
+}
+```
+
+Next, we need to validate the user inout to make sure they've entered an approproate choice. We'll do that after you've haf a go at the following exercise.
+
 ## 17. We need to variable the user's input
 
 ### a. "And" and "Or" operators (&& and ||)
