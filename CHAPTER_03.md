@@ -550,6 +550,22 @@ Next, we need to validate the user inout to make sure they've entered an appropr
 
 ## 17. We need to variable the user's input
 
+The final code we need to write for the getUserChoice function needs to validate the user's input to make sure they've entered a valid option. The code needs to do the following:
+
+1. Check that the user input isn't null.
+
+As we said earlier, the readLine() function returns a null value if it's reading a line from a file, and it's at the end of the file. Even though this isn't the case in our situation, we still need to check that the user input isn't in order to keep the compiler sweet.
+
+2. Check whether the user's choice is in the options array.
+
+We can do this using the in operator that you saw when we discussed for loops.
+
+3. Loop until the user enters a valid choice.
+
+We want to loop until a condition is met (the user enters a valid option), so we'll use a while loop for this.
+
+You're already familiar with most of the code needed to do this, but to write code thst's more concise, we're going to use some boolean expressions that are more powerful than the ones you've seen before. We'll discuss these next, and after that we'll show you the full code for the getUserChoice function.
+
 ### a. "And" and "Or" operators (&& and ||)
 
 ### b. Not equals (!= and !)
