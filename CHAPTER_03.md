@@ -465,6 +465,12 @@ For loops run over a range of values or items.
 
 ### b. Use downTo to reverse the range
 
+If you want to loop through a range of numbers in reverse order, you use downTo instead of ... or until. As an example, you'd use the following code to print the numbers from 15 down to 1:
+
+```KOTLIN
+for (x in 15 downTo 1) println(x) // Using downTo instead of ... loops through the numbers in reverse order
+```
+
 ### c. Use step to skip numbers in the range
 
 ### d. Looping through the items in an array
